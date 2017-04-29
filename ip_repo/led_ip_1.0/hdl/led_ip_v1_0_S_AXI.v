@@ -165,7 +165,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	  if ( S_AXI_ARESETN == 1'b0 )
 	    begin
 	      slv_reg0 <= 0;
-	      //slv_reg1 <= 0;
+	      //slv_reg1 <= 0; //not sure if commenting is necessary but may cause conflict with assigning its value from USER code. 
 	      slv_reg2 <= 0;
 	      slv_reg3 <= 0;
 	    end 
@@ -313,8 +313,8 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	always @(*)
 	begin
 	      // Address decoding for reading registers
-	      case ( axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )
-	        2'h0   : reg_data_out <= slv_reg0;
+	      case ( axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] ) //if we put different registers than the ones used for writing data in, we essentially create a different address space to be used by the user.
+	        2'h0   : reg_data_out <= slv_reg0;                     //in case the cpu doesnt need to read the values that itself sends, and the number of registers doesnt need to be limited this is the best practice
 	        2'h1   : reg_data_out <= slv_reg1;
 	        2'h2   : reg_data_out <= slv_reg2;
 	        2'h3   : reg_data_out <= slv_reg3;

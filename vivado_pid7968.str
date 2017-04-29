@@ -1146,3 +1146,146 @@ selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponen
 // Tcl Command: 'report_ip_status -name ip_status '
 // TclEventType: IP_SUMMARY_RESULTS
 // Tcl Message: report_ip_status -name ip_status  
+// Elapsed time: 183 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 215, 603); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 215, 603, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 225, 57); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 70 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 717, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 940, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 923, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 127, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 127, 262, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 72 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 86, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 493, 184); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 70 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 289, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 76 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 783, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 731, 189); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 899, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 63 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 781, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 795, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: current_project led_ip_v2_0_project 
+// Elapsed time: 24 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 82, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 6 [ipx::current_core] 
+// bt:g (cd:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Message: current_project HWacceleration 
+// TclEventType: CREATE_IP_CATALOG
+// bt:g (cd:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project led_ip_v2_0_project 
+dismissDialog("Refresh IP Catalog"); // bt:g (cd:JFrame)
+// Tcl Message: ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: current_project HWacceleration 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: upgrade_ip -vlnv xilinx.com:kmd:led_ip:2.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd' 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 2.0) from revision 5 to revision 6 
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet 
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton("PAResourceTtoZ.UpgradeIP_SELECTED_IPS_CANT_BE_UPGRADED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 105 MB. Current time: 4/29/17 11:24:54 PM EEST
+// Elapsed time: 141 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 155, 575); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 155, 575, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 107 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 133, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 133, 387, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 65 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 63, 624); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 63, 624, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
