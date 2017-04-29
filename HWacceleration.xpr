@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="17" Path="C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_ACCELERATION/HWacceleration.xpr">
+<Project Version="7" Minor="17" Path="C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="817745b485e34d26a5591f78c6db2c2e"/>
@@ -21,6 +21,7 @@
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ip_repo/GRAY_ACCELERATOR_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ip_repo"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
@@ -37,13 +38,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="4"/>
-    <Option Name="WTModelSimExportSim" Val="4"/>
-    <Option Name="WTQuestaExportSim" Val="4"/>
-    <Option Name="WTIesExportSim" Val="4"/>
-    <Option Name="WTVcsExportSim" Val="4"/>
-    <Option Name="WTRivieraExportSim" Val="4"/>
-    <Option Name="WTActivehdlExportSim" Val="4"/>
+    <Option Name="WTXSimExportSim" Val="5"/>
+    <Option Name="WTModelSimExportSim" Val="5"/>
+    <Option Name="WTQuestaExportSim" Val="5"/>
+    <Option Name="WTIesExportSim" Val="5"/>
+    <Option Name="WTVcsExportSim" Val="5"/>
+    <Option Name="WTRivieraExportSim" Val="5"/>
+    <Option Name="WTActivehdlExportSim" Val="5"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -61,29 +62,21 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="hdl/Cortex_A9.v"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_axi_gpio_0_1/Cortex_A9_axi_gpio_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_ps7_0_axi_periph_0/Cortex_A9_ps7_0_axi_periph_0.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_axi_gpio_0_0/Cortex_A9_axi_gpio_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_led_ip_0_0/Cortex_A9_led_ip_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.xci"/>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0.xci">
+          <Proxy FileSetName="Cortex_A9_auto_pc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="Cortex_A9_ooc.xdc"/>
         <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="hdl/Cortex_A9.hwdef"/>
         <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="hw_handoff/Cortex_A9_bd.tcl"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="Cortex_A9_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_ps7_0_axi_periph_0/Cortex_A9_ps7_0_axi_periph_0.xci"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_axi_gpio_0_0/Cortex_A9_axi_gpio_0_0.xci">
-          <Proxy FileSetName="Cortex_A9_axi_gpio_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_led_ip_0_0/Cortex_A9_led_ip_0_0.xci">
-          <Proxy FileSetName="Cortex_A9_led_ip_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="hw_handoff/Cortex_A9.hwh"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="hdl/Cortex_A9.v"/>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.xci">
-          <Proxy FileSetName="Cortex_A9_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_axi_gpio_0_1/Cortex_A9_axi_gpio_0_1.xci">
-          <Proxy FileSetName="Cortex_A9_axi_gpio_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Cortex_A9.bd" FileRelPathName="ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0.xci">
-          <Proxy FileSetName="Cortex_A9_rst_ps7_0_100M_0"/>
-        </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v">
         <FileInfo>
@@ -126,33 +119,9 @@
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>
-    <FileSet Name="Cortex_A9_axi_gpio_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Cortex_A9_axi_gpio_0_1">
+    <FileSet Name="Cortex_A9_auto_pc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Cortex_A9_auto_pc_0">
       <Config>
-        <Option Name="TopModule" Val="Cortex_A9_axi_gpio_0_1"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="Cortex_A9_rst_ps7_0_100M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Cortex_A9_rst_ps7_0_100M_0">
-      <Config>
-        <Option Name="TopModule" Val="Cortex_A9_rst_ps7_0_100M_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="Cortex_A9_axi_gpio_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Cortex_A9_axi_gpio_0_0">
-      <Config>
-        <Option Name="TopModule" Val="Cortex_A9_axi_gpio_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="Cortex_A9_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Cortex_A9_xbar_0">
-      <Config>
-        <Option Name="TopModule" Val="Cortex_A9_xbar_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="Cortex_A9_led_ip_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Cortex_A9_led_ip_0_0">
-      <Config>
-        <Option Name="TopModule" Val="Cortex_A9_led_ip_0_0"/>
+        <Option Name="TopModule" Val="Cortex_A9_auto_pc_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -184,41 +153,11 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="Cortex_A9_axi_gpio_0_1_synth_1" Type="Ft3:Synth" SrcSet="Cortex_A9_axi_gpio_0_1" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_axi_gpio_0_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Cortex_A9_axi_gpio_0_1_synth_1" IncludeInArchive="true">
+    <Run Id="Cortex_A9_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="Cortex_A9_auto_pc_0" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_auto_pc_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Cortex_A9_auto_pc_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_rst_ps7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="Cortex_A9_rst_ps7_0_100M_0" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_rst_ps7_0_100M_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Cortex_A9_rst_ps7_0_100M_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="Cortex_A9_axi_gpio_0_0" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_axi_gpio_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Cortex_A9_axi_gpio_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="Cortex_A9_xbar_0" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_xbar_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Cortex_A9_xbar_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_led_ip_0_0_synth_1" Type="Ft3:Synth" SrcSet="Cortex_A9_led_ip_0_0" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_led_ip_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Cortex_A9_led_ip_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -240,69 +179,11 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="Cortex_A9_axi_gpio_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_axi_gpio_0_1" Description="Default settings for Implementation." SynthRun="Cortex_A9_axi_gpio_0_1_synth_1" IncludeInArchive="false">
+    <Run Id="Cortex_A9_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_auto_pc_0" Description="Default settings for Implementation." SynthRun="Cortex_A9_auto_pc_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_rst_ps7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_rst_ps7_0_100M_0" Description="Default settings for Implementation." SynthRun="Cortex_A9_rst_ps7_0_100M_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_axi_gpio_0_0" Description="Default settings for Implementation." SynthRun="Cortex_A9_axi_gpio_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_xbar_0" Description="Default settings for Implementation." SynthRun="Cortex_A9_xbar_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="Cortex_A9_led_ip_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="Cortex_A9_led_ip_0_0" Description="Default settings for Implementation." SynthRun="Cortex_A9_led_ip_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

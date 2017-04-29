@@ -6,6 +6,7 @@ BEGIN OS
  PARAMETER OS_NAME = standalone
  PARAMETER OS_VER = 6.1
  PARAMETER PROC_INSTANCE = ps7_cortexa9_0
+ PARAMETER enable_sw_intrusive_profiling = true
  PARAMETER stdin = ps7_uart_1
  PARAMETER stdout = ps7_uart_1
 END

@@ -1,0 +1,131 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 6820
+
+Current time: 	4/25/17 10:12:05 AM EEST
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1440x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	kmd17
+User home directory: C:/Users/kmd17
+User working directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/kmd17/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/kmd17/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	210 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 420 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 55 MB (+55223kb) [00:00:06]
+// [Engine Memory]: 385 MB (+252520kb) [00:00:06]
+// Opening Vivado Project: C:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\HWacceleration.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr 
+// [Engine Memory]: 432 MB (+29212kb) [00:00:10]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 445 MB. GUI used memory: 27 MB. Current time: 4/25/17 10:12:07 AM EEST
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 471 MB (+17696kb) [00:00:15]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 603 MB (+114058kb) [00:00:21]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Tcl Message: open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_ACCELERATION' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Project name: HWacceleration; location: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 901.324 ; gain = 248.992 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// [GUI Memory]: 59 MB (+886kb) [00:00:28]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 131 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v), Cortex_A9_i - Cortex_A9 (Cortex_A9.bd), Cortex_A9 (Cortex_A9.v)]", 3); // y:i (D:JPanel, cd:JFrame)
+// [GUI Memory]: 62 MB (+376kb) [00:03:21]
+// Elapsed time: 62 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// [GUI Memory]: 69 MB (+4367kb) [00:03:48]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// [GUI Memory]: 74 MB (+1200kb) [00:05:35]
+// [GUI Memory]: 79 MB (+1435kb) [00:08:36]
+// [GUI Memory]: 83 MB (+470kb) [00:15:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 48 MB. Current time: 4/25/17 10:42:09 AM EEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 1859 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:q (cd:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:q)
+// 'o' command handler elapsed time: 3 seconds
+dismissDialog("Launch SDK"); // aa:q (cd:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk -hwspec C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk -hwspec C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// [GUI Memory]: 89 MB (+1611kb) [00:40:50]
+// [GUI Memory]: 94 MB (+129kb) [00:49:32]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 51 MB. Current time: 4/25/17 11:12:12 AM EEST
+// [GUI Memory]: 99 MB (+68kb) [01:24:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 54 MB. Current time: 4/25/17 11:42:14 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 54 MB. Current time: 4/25/17 12:12:16 PM EEST
+// Elapsed time: 5550 seconds
+closeMainWindow("HWacceleration - [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr] - Vivado 2016.4"); // cd:JFrame
+// y:aO (cd:JFrame): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
