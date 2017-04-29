@@ -668,3 +668,481 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
 // [GUI Memory]: 131 MB (+534kb) [02:55:35]
 // HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 72 MB. Current time: 4/29/17 9:54:53 PM EEST
+// Elapsed time: 1130 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 97, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 742 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 400, 475); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 311, 579); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 504 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 361, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+floatView(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// [GUI Memory]: 138 MB (+527kb) [03:34:58]
+// [GUI Memory]: 146 MB (+974kb) [03:35:07]
+// Elapsed time: 17 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 767, 422); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// [GUI Memory]: 168 MB (+15132kb) [03:35:08]
+unMaximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+unMaximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 18 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 12 seconds
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+unMaximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+unMaximizeFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 347, 242); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 77, 520); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 69, 520); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 339, 585); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 124, 260); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 124, 260, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 91 MB. Current time: 4/29/17 10:24:53 PM EEST
+// Elapsed time: 42 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 326, 503); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 326, 503, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 213, 550); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 213, 550, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 435, 554); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 435, 554, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 39 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 292, 234); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 292, 234, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 354); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 350); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 350, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 64 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 283, 50); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 283, 50, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 140, 527); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 140, 527, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 151, 513); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 151, 513, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 331, 379); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 331, 379, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 227, 381); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 227, 381, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 429, 389); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 429, 389, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 30 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 431, 381); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 431, 381, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 53 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 202, 541); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 202, 541, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 103, 519); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 103, 519, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 289, 533); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 289, 533, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 141 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 259, 264); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 259, 264, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 80 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 849, 377); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 115 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 854, 384); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 877, 382); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 196 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 729, 587); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 201, 455); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 211, 326); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 233, 364); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 251, 360); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 11, 385); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 371, 604); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 257, 789); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 121, 791); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 231, 812); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 93, 758); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 357, 731); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 128, 546); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 128, 546, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 160, 621); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 160, 621, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 296, 195); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 296, 195, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 152, 602); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 152, 602, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 158, 724); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 158, 724, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 29 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 203, 558); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 123, 484); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 123, 484, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 572); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 572, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 150, 560); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 150, 560, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 87, 282); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 87, 282, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 147, 283); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 147, 283, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 162, 450); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 571); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 571, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 85, 572); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 378, 711); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 158, 571); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 158, 571, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 360, 694); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 360, 707); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 360, 707, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 179, 656); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 391, 692); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 373, 585); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 373, 585, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 173, 705); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 173, 705, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 418, 714); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 29 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 189, 574); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 314, 570); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 355, 571); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 474, 568); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 314, 569); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 151, 726); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 151, 726, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 178, 433); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 216, 478); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 211, 360); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 824, 636); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 105, 534); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 105, 534, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 183, 758); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 136, 451); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 144, 452); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 141, 452, false, false, false, false, true); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 137, 452); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 73, 108); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 45 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 327, 266); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 179, 210); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 83, 276); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 112, 292); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 117, 250); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 125, 154); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 154, 730); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 155, 720); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 163, 702); // bF:I (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 15 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "led_ip_v1_0_S_AXI.v"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_WARNING_MESSAGES, "1 warning"); // h:k (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false, false, false, false, true, false); // ah:i (JViewport:JComponent, cd:JFrame) - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false, false, false, false, true, false); // ah:i (JViewport:JComponent, cd:JFrame) - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 5, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 5, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 's_axi_aclk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 5, false, false, false, false, true, false); // ah:i (JViewport:JComponent, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Y:JMenu (K:JPopupMenu, cd:JFrame)
+// Elapsed time: 18 seconds
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 3 [ipx::current_core] 
+// bt:g (cd:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 109, 243); // bF:I (JPanel:JComponent, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+// Elapsed time: 13 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 170, 105); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 270, 107); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 81 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 4 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 169, 235); // bF:I (JPanel:JComponent, cd:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 167, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 167, 335, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 292, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 307, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 307, 233, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 212, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 148 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 143, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 143, 182, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 95 MB. Current time: 4/29/17 10:54:54 PM EEST
+// Elapsed time: 14 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 141, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 141, 194, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 291 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 287 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 4, 30); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 1, 31); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 33, 24); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 252 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 5 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Message: current_project HWacceleration 
+// TclEventType: CREATE_IP_CATALOG
+// bt:g (cd:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project led_ip_v2_0_project 
+dismissDialog("Refresh IP Catalog"); // bt:g (cd:JFrame)
+// Tcl Message: ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+// Tcl Message: ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.     ::bd::board_utils::is_intf_pin Line 3 ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design. 
+// Tcl Message: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors. 
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: current_project HWacceleration 
+// TclEventType: RSB_OPEN_DIAGRAM
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: upgrade_ip -vlnv xilinx.com:kmd:led_ip:2.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 2.0) from revision 2 to revision 5 
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  

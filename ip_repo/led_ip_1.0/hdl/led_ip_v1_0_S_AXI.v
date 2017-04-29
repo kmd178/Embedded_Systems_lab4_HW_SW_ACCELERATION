@@ -1,4 +1,6 @@
 `timescale 1 ns / 1 ps  ////KMD EDIT. v2. I would clear out the confusion between what (aw,w,ar,r,b) valid and ready really mean by replacing W with MASTER and R with slave. Meaning that the data or address is synthesized by master who Writes or slave who master Reads from
+////S_AXI_AWADRR AND S_AXI_ARADRR are being signaled through the interconnect from the cpu in multiples of 4 . Having exactly the value assigned by mRead function essentially wasting the 2 LSB.
+///In case of registers being 8,16,32,64,128 the right shifting of user input must be applied to save register addres space.
 module led_ip_v1_0_S_AXI # 	(
 ///////////////////////////////////////////////////////////////////////////////////user
 parameter integer C_S_AXI_DATA_WIDTH	= 32,
@@ -28,7 +30,6 @@ output wire  S_AXI_RVALID, // Read valid. This signal indicates that the channel
 input wire  S_AXI_RREADY // Read ready. This signal indicates that the master can accept the read data and response information.
 	);
     
-    wire [7:0] grayOut ;
 	// AXI4LITE signals
 	reg [C_S_AXI_ADDR_WIDTH-1 : 0] 	axi_awaddr; // Write address (issued by master, acceped by Slave)
         ///////// refreshed when valid ///////// ///////// ///////// ///////// ///////// /////////
@@ -164,7 +165,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	  if ( S_AXI_ARESETN == 1'b0 )
 	    begin
 	      slv_reg0 <= 0;
-	      slv_reg1 <= 0;
+	      //slv_reg1 <= 0;
 	      slv_reg2 <= 0;
 	      slv_reg3 <= 0;
 	    end 
@@ -184,7 +185,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	              if ( S_AXI_WSTRB[byte_index] == 1 ) begin
 	                // Respective byte enables are asserted as per write strobes 
 	                // Slave register 1
-	                slv_reg1[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
+	                //slv_reg1[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
 	              end  
 	          2'h2:
 	            for ( byte_index = 0; byte_index <= (C_S_AXI_DATA_WIDTH/8)-1; byte_index = byte_index+1 )
@@ -202,7 +203,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	              end  
 	          default : begin
 	                      slv_reg0 <= slv_reg0;
-	                      slv_reg1 <= slv_reg1;
+	                      //slv_reg1 <= slv_reg1;
 	                      slv_reg2 <= slv_reg2;
 	                      slv_reg3 <= slv_reg3;
 	                    end
@@ -335,7 +336,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	      // output the read dada 
 	      if (slv_reg_rden)
 	        begin
-	          axi_rdata <= grayOut;////reg_data_out;     // register read data //////MAYBE NEED TO CHANGE THAT TO THE 
+	          axi_rdata <= reg_data_out;   // register read data 
 	        end   
 	    end
 	end    
@@ -344,12 +345,11 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
     .C_S_AXI_ADDR_WIDTH(C_S_AXI_ADDR_WIDTH) // parameters
     //.ADDR_LSB(ADDR_LSB)
     ) U1 (
-    .grayOut(grayOut [7:0]),
     .S_AXI_ACLK(S_AXI_ACLK),
     .S_AXI_ARESETN(S_AXI_ARESETN),
     .slv_reg_wren(slv_reg_wren),
-    //.axi_awaddr(axi_awaddr[C_S_AXI_ADDR_WIDTH-1 : 0]), //  .axi_awaddr(axi_awaddr[C_S_AXI_ADDR_WIDTH-1 : ADDR_LSB]),
-    .S_AXI_WDATA(S_AXI_WDATA),
+    .slv_reg0(slv_reg0),
+    .slv_reg1(slv_reg1),
     .LED(LED)
     );
     
@@ -360,34 +360,30 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 
 
 module led_user_logic#(
-    parameter integer C_S_AXI_ADDR_WIDTH	= 4
-    )
-    (
-     output grayOut, //only way to make it work if you dont know how the AXI interface can prepare data for reading
-     input S_AXI_ACLK,
+    parameter integer C_S_AXI_ADDR_WIDTH	= 4   )
+    (input S_AXI_ACLK,
      input S_AXI_ARESETN,
      input slv_reg_wren,
-     input [C_S_AXI_ADDR_WIDTH-1:0] axi_awaddr,
-     input [31:0] S_AXI_WDATA,
+     input [31:0] slv_reg0,
+     output [31:0] slv_reg1,
      output reg [7:0] LED
      );
 
      reg clk_en;
-     wire [7:0] grayOut;
      wire rst=(S_AXI_ARESETN*rst_button);
      reg rst_button;
-     gray_Nbits Counter(S_AXI_ACLK, clk_en , rst, grayOut);// Instantiation of the gray_Nbits 
+     gray_Nbits Counter(S_AXI_ACLK, clk_en , rst, slv_reg1);// Instantiation of the gray_Nbits 
 
      always @( posedge S_AXI_ACLK )
          if ( S_AXI_ARESETN == 1'b0 )
             LED <= 8'b00000111;
          else
-             if ((slv_reg_wren == 1) && (axi_awaddr == 0))
-                LED <= grayOut[7:0];
+             if (slv_reg_wren == 1) 
+                LED <= slv_reg1[7:0];
     
      always @( posedge S_AXI_ACLK )
-         if ((slv_reg_wren == 1) && (axi_awaddr == 0)) //If writing channel is activated.
-             case(S_AXI_WDATA)
+         if (slv_reg_wren == 1)  //If writing channel is activated.
+             case(slv_reg0)
              0:  rst_button=1;  //No button pressed=frozen
              1:begin  
                 clk_en=1;  //Button1 Pressed running

@@ -27,8 +27,8 @@ int main (void)
 
 	  // output dip switches value on LED_ip device
 	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, dip_check);
-	  //reading the value of grayout,  LED_IP_S_AXI_SLV_REG1_OFFSET=4  4*8bytes after slv1
-	  xil_printf("Current counter value: %x\r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG1_OFFSET) );
+	  //reading the value of grayout
+	  xil_printf("Current counter value: %x\r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,4) );
 
 	  	 // GRAY_IP_mWriteReg(XPAR_GRAY_IP_S_AXI_BASEADDR, 0, dip_check);
 
