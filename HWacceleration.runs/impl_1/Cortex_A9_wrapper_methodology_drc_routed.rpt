@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Tue Apr 04 09:42:48 2017
+| Date         : Wed May 03 01:52:19 2017
 | Host         : SURFACE running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Cortex_A9_wrapper_methodology_drc_routed.rpt -rpx Cortex_A9_wrapper_methodology_drc_routed.rpx
 | Design       : Cortex_A9_wrapper
@@ -23,19 +23,89 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 22
+             Violations found: 36
 +-----------+----------+-------------------------------+------------+
 | Rule      | Severity | Description                   | Violations |
 +-----------+----------+-------------------------------+------------+
-| TIMING-14 | Warning  | LUT on the clock tree         | 1          |
+| TIMING-16 | Warning  | Large setup violation         | 15         |
 | TIMING-18 | Warning  | Missing input or output delay | 21         |
 +-----------+----------+-------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
-TIMING-14#1 Warning
-LUT on the clock tree  
-The LUT Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/U1/Counter/state[8]_i_2 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.057 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.551 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.615 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.699 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.728 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.814 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.817 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.845 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.846 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.861 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.924 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -1.931 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -1.938 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -1.975 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[14] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -2.074 ns between Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/DIBDI[15] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-18#1 Warning

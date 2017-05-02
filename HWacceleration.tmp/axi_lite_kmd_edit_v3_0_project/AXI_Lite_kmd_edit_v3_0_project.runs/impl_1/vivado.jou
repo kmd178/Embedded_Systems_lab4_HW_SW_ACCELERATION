@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue May 02 11:47:50 2017
+# Process ID: 832
+# Current directory: c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/axi_lite_kmd_edit_v3_0_project/AXI_Lite_kmd_edit_v3_0_project.runs/impl_1
+# Command line: vivado.exe -log led_ip_v1_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source led_ip_v1_0.tcl -notrace
+# Log file: c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/axi_lite_kmd_edit_v3_0_project/AXI_Lite_kmd_edit_v3_0_project.runs/impl_1/led_ip_v1_0.vdi
+# Journal file: c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/axi_lite_kmd_edit_v3_0_project/AXI_Lite_kmd_edit_v3_0_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source led_ip_v1_0.tcl -notrace

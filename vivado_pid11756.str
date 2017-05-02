@@ -1,0 +1,899 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 11756
+
+Current time: 	4/30/17 6:44:24 PM EEST
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1440x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	kmd17
+User home directory: C:/Users/kmd17
+User working directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/kmd17/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/kmd17/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	222 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 434 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+57840kb) [00:00:08]
+// [Engine Memory]: 383 MB (+250358kb) [00:00:08]
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\HWacceleration.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 438 MB (+36861kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 457 MB. GUI used memory: 27 MB. Current time: 4/30/17 6:44:26 PM EEST
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 469 MB (+10276kb) [00:00:16]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 498 MB (+4985kb) [00:00:21]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 574 MB (+53926kb) [00:00:23]
+// Tcl Message: open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 600 MB. GUI used memory: 36 MB. Current time: 4/30/17 6:44:42 PM EEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 874.898 ; gain = 210.738 
+// Project name: HWacceleration; location: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 247 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (Cortex_A9.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v), Cortex_A9_i - Cortex_A9 (Cortex_A9.bd), Cortex_A9 (Cortex_A9.v)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v), Cortex_A9_i - Cortex_A9 (Cortex_A9.bd), Cortex_A9 (Cortex_A9.v)]", 3); // y:i (D:JPanel, cd:JFrame)
+// [Engine Memory]: 607 MB (+4200kb) [00:04:40]
+// [GUI Memory]: 63 MB (+3087kb) [00:04:41]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v), Cortex_A9_i - Cortex_A9 (Cortex_A9.bd), Cortex_A9 (Cortex_A9.v), led_ip - Cortex_A9_led_ip_0_0 (Cortex_A9_led_ip_0_0.xci)]", 5, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v), Cortex_A9_i - Cortex_A9 (Cortex_A9.bd), Cortex_A9 (Cortex_A9.v), led_ip - Cortex_A9_led_ip_0_0 (Cortex_A9_led_ip_0_0.xci)]", 5, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:q)
+// bt:g (cd:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name AXI_Lite_kmd_edit_v2_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/AXI_Lite_kmd_edit_v2_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v2_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 72 MB (+5422kb) [00:05:04]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 874.898 ; gain = 0.000 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data INFO: [IP_Flow 19-799] Syncing upgrade version meta-data 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 54 MB. Current time: 4/30/17 6:49:23 PM EEST
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [Engine Memory]: 656 MB (+19888kb) [00:05:10]
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 875.672 ; gain = 0.773 
+// 'i' command handler elapsed time: 22 seconds
+dismissDialog("Edit in IP Packager"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 77 MB (+1949kb) [00:05:40]
+// Elapsed time: 29 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// [GUI Memory]: 86 MB (+5173kb) [00:05:40]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - led_user_logic (led_ip_v1_0_S_AXI.v)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - led_user_logic (led_ip_v1_0_S_AXI.v)]", 3, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// [GUI Memory]: 91 MB (+1089kb) [00:05:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 685 MB. GUI used memory: 57 MB. Current time: 4/30/17 6:50:07 PM EEST
+// [GUI Memory]: 97 MB (+771kb) [00:12:46]
+// [GUI Memory]: 102 MB (+417kb) [00:17:24]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 107 MB (+120kb) [00:27:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 60 MB. Current time: 4/30/17 7:20:08 PM EEST
+// [GUI Memory]: 113 MB (+532kb) [01:04:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 56 MB. Current time: 4/30/17 7:50:11 PM EEST
+// [GUI Memory]: 119 MB (+243kb) [01:09:53]
+// [GUI Memory]: 125 MB (+492kb) [01:13:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 59 MB. Current time: 4/30/17 8:20:15 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 63 MB. Current time: 4/30/17 8:50:17 PM EEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 58 MB. Current time: 4/30/17 9:20:20 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 52 MB. Current time: 4/30/17 9:50:23 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 52 MB. Current time: 4/30/17 10:20:26 PM EEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 51 MB. Current time: 4/30/17 10:50:28 PM EEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 51 MB. Current time: 5/1/17 12:28:57 AM EEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 51 MB. Current time: 5/1/17 1:15:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 53 MB. Current time: 5/1/17 1:45:44 AM EEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 52 MB. Current time: 5/1/17 10:09:46 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 51 MB. Current time: 5/1/17 10:42:43 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 52 MB. Current time: 5/1/17 11:12:47 AM EEST
+// Elapsed time: 59536 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // y:i (D:JPanel, cd:JFrame)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 54 MB. Current time: 5/1/17 11:42:50 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 53 MB. Current time: 5/1/17 12:12:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 48 MB. Current time: 5/1/17 12:42:53 PM EEST
+// Elapsed time: 5235 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 66, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 66, 331, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 73, 327); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 73, 327, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 42 MB. Current time: 5/1/17 2:09:42 PM EEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 47 MB. Current time: 5/1/17 2:39:43 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 3:09:45 PM EEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 47 MB. Current time: 5/1/17 3:39:55 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 4:09:57 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 4:39:58 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 5:20:05 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 47 MB. Current time: 5/1/17 5:50:06 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 42 MB. Current time: 5/1/17 6:20:07 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 45 MB. Current time: 5/1/17 6:50:09 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 7:20:10 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 44 MB. Current time: 5/1/17 7:50:12 PM EEST
+// [GUI Memory]: 161 MB (+30206kb) [25:10:03]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 47 MB. Current time: 5/1/17 10:07:29 PM EEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 11:17:21 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/1/17 11:47:20 PM EEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 46 MB. Current time: 5/2/17 12:17:21 AM EEST
+// Elapsed time: 41492 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Cortex_A9_wrapper (Cortex_A9_wrapper.v), Cortex_A9_i - Cortex_A9 (Cortex_A9.bd), Cortex_A9 (Cortex_A9.v), led_ip - Cortex_A9_led_ip_0_0 (Cortex_A9_led_ip_0_0.xci)]", 5, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:q)
+// bt:g (cd:JFrame):  Edit in IP Packager : addNotify
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name AXI_Lite_kmd_edit_v2_0_project -directory c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v2_0_project/AXI_Lite_kmd_edit_v2_0_project.tmp/AXI_Lite_kmd_edit_v2_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml 
+// Tcl Message: ERROR: [Ipptcl 7-561] A project named 'AXI_Lite_kmd_edit_v2_0_project' is already opened. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::edit_ip_in_project' failed due to earlier errors. 
+// 'i' command handler elapsed time: 12 seconds
+dismissDialog("Edit in IP Packager"); // bt:g (cd:JFrame)
+// Elapsed time: 44 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - led_user_logic (led_ip_v1_0_S_AXI.v)]", 3); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - led_user_logic (led_ip_v1_0_S_AXI.v)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - led_user_logic (led_ip_v1_0_S_AXI.v)]", 3, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Elapsed time: 25 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 53, 80); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 109, 594); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 722); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 15, 255); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 25, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 57, 701); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 76, 633); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 76, 633, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 167, 640); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 726, 660); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 190 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 47, 549); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 108, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 121, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 121, 75, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 99, 641); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 99, 641, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 241 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 117, 598); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 106, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 59, 408); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 68, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 68, 399, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 57, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 57, 112, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 86, 159); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 104, 363); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 104, 363, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 81, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 81, 128, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 100, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 100, 384, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 53, 142); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 53, 142, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 107, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 107, 400, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 73, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 73, 163, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 135, 423); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 141, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 141, 418, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 244, 157); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 244, 157, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 147, 465); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 147, 465, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 151, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 151, 469, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 85, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 466); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 466, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 464); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 149, 464, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 153, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 152, 469, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 120, 204); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 113, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 116, 212); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 116, 212, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 72, 197, false, true, false, false, false); // bF:I (JPanel:JComponent, cd:JFrame) - Control Key
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 157, 481); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 157, 481, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 60, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 60, 211, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 230, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 230, 217, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 259, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 264, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 104, 237); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 175, 499); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 47, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 47, 248, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 117, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 117, 231, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 64, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 64, 247, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 57, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 57, 232, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 101, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 29 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 179, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 141, 438); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 02 00:34:33 2017] Launched synth_1... Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v2_0_project/AXI_Lite_kmd_edit_v2_0_project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+// [GUI Memory]: 169 MB (+404kb) [29:50:19]
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// Elapsed time: 10 seconds
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g:JCheckBox (JPanel:JComponent, cd:JFrame): TRUE
+// TclEventType: RUN_FAILED
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard]", 5); // ah:i (JViewport:JComponent, cd:JFrame)
+// ah:y (cd:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'slv_reg2' should not be used in output port connection [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:350]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\ip_repo\led_ip_1.0\hdl\led_ip_v1_0_S_AXI.v;-;;-;16;-;line;-;350;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'slv_reg2' should not be used in output port connection [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:350]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\ip_repo\led_ip_1.0\hdl\led_ip_v1_0_S_AXI.v;-;;-;16;-;line;-;350;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 230, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 229, 227, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 68, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue May 02 00:35:41 2017] Launched synth_1... Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v2_0_project/AXI_Lite_kmd_edit_v2_0_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'slv_reg2' should not be used in output port connection [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:350]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\ip_repo\led_ip_1.0\hdl\led_ip_v1_0_S_AXI.v;-;;-;16;-;line;-;350;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 240, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 240, 336, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 38, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 38, 334, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 34, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 34, 320, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue May 02 00:37:00 2017] Launched synth_1... Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v2_0_project/AXI_Lite_kmd_edit_v2_0_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 138 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ah:y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah:y (cd:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g:JCheckBox (JPanel:JComponent, cd:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 6); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-387] label required on module instance [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:344]. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\ip_repo\led_ip_1.0\hdl\led_ip_v1_0_S_AXI.v;-;;-;16;-;line;-;344;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 122, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (32) of port connection 'X' does not match port width (16) of module 'multiplicator' [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:349]. ]", 4, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\ip_repo\led_ip_1.0\hdl\led_ip_v1_0_S_AXI.v;-;;-;16;-;line;-;349;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net LED in module/entity led_ip_v1_0_S_AXI does not have driver. [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:8]. ]", 5, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\ip_repo\led_ip_1.0\hdl\led_ip_v1_0_S_AXI.v;-;;-;16;-;line;-;8;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 203, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 155, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 155, 128, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 168, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 168, 128, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 88, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 88, 131, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 202, 156); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 58, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 168, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 32 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module led_ip_v1_0.. ]", 8, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module led_ip_v1_0.. ]", 8, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module led_ip_v1_0.. , [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module led_ip_v1_0.. ]", 12, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 44 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module led_ip_v1_0.. , [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module led_ip_v1_0.. ]", 9, false); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module led_ip_v1_0.. ]", 8); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3463] Infeasible ramstyle = block set for RAM led_ip_v1_0_S_AXI_inst/nolabel_line344/memInputX_reg,trying to implement using LUTRAM. ]", 7); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3463] Infeasible ramstyle = block set for RAM led_ip_v1_0_S_AXI_inst/nolabel_line344/memInputX_reg,trying to implement using LUTRAM. , [Synth 8-3463] Infeasible ramstyle = block set for RAM led_ip_v1_0_S_AXI_inst/nolabel_line344/memInputX_reg,trying to implement using LUTRAM. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 568, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue May 02 00:43:25 2017] Launched synth_1... Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v2_0_project/AXI_Lite_kmd_edit_v2_0_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// [GUI Memory]: 179 MB (+1134kb) [29:59:31]
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 70 MB. Current time: 5/2/17 12:47:24 AM EEST
+// Elapsed time: 285 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Synthesis Completed"); // ah:y (cd:JFrame)
+// Elapsed time: 15 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design led_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design led_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design led_ip_v1_0 has port LED[7] driven by constant 0. ]", 5); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design led_ip_v1_0 has port LED[7] driven by constant 0. ]", 5); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design led_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design led_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // al:k (JViewport:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 8 [ipx::current_core] 
+// bt:g (cd:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// Elapsed time: 75 seconds
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // al:k (JViewport:JComponent, cd:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // al:k (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+setText(PAResourceItoN.IdentificationContentPanel_VERSION, "3.0"); // M:ak (af:L, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property version 3.0 [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 31 seconds
+setText(PAResourceItoN.IdentificationContentPanel_DESCRIPTION, "Rearranged and commented AXI_Lite. Ready for FPGA"); // M:ak (af:L, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property description {Rearranged and commented AXI_Lite. Ready for FPGA} [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // al:k (JViewport:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property previous_version_for_upgrade {xilinx.com:user:led_ip:1.0 xilinx.com:kmd:led_ip:2.0} [ipx::current_core] 
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 1 [ipx::current_core] 
+// bt:g (cd:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// bt:g (cd:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 68 MB. Current time: 5/2/17 12:51:19 AM EEST
+// Tcl Message: close_project 
+dismissDialog("Package IP"); // bt:g (cd:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo' 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 106 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (L:aE, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, Cortex_A9]", 1, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, Cortex_A9]", 1); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, Cortex_A9]", 1); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, Cortex_A9]", 1); // y:i (D:JPanel, cd:JFrame)
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd} 
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (Cortex_A9_led_ip_0_0.xci) elapsed time: 0.3s
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_gpio:2.0 - btns_5bits Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M Adding cell -- xilinx.com:ip:axi_gpio:2.0 - sws_8bits Adding cell -- xilinx.com:kmd:led_ip:2.0 - led_ip Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <Cortex_A9> from BD file <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 1024.316 ; gain = 17.434 
+// Elapsed time: 26 seconds
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+// WARNING: HTimer (RSBAttributeDisplay Update Pin Markers Timer) is taking too long to process. Increasing delay to 3000 ms.
+selectButton(PAResourceQtoS.SrcFilePropPanels_MORE_INFO, "more info"); // h:k (JPanel:JComponent, cd:JFrame)
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "IP", 2); // g:JideTabbedPane (JPanel:JComponent, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// HOptionPane Warning: 'The design contains IP with major version changes. Please refer to the Change Log<br>to understand the impact of upgrading an IP with major version change in your design,<br>prior to upgrading. (Report IP Status)'
+// Tcl Message: report_ip_status -name ip_status  
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+selectButton("PAResourceItoN.IPStatusResultsView_DESIGN_CONTAINS_IP_WITH_MAJOR_VERSION_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceQtoS.SrcFilePropPanels_MORE_INFO, "more info"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: upgrade_ip -vlnv xilinx.com:kmd:led_ip:3.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd' 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 2.0 to AXI_Lite_kmd_edit 3.0 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1098.652 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// at:q (cd:JFrame): Generate Output Products: addNotify
+// Elapsed time: 12 seconds
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cn' command handler elapsed time: 11 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_DELETE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_DELETE
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh 
+// HMemoryUtils.trashcanNow. Engine heap size: 709 MB. GUI used memory: 72 MB. Current time: 5/2/17 12:56:29 AM EEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 1.266 MB. 
+// [Engine Memory]: 709 MB (+20821kb) [30:12:18]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 02 00:56:36 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1... Run output will be captured here: Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log [Tue May 02 00:56:36 2017] Launched impl_1... Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:46 ; elapsed = 00:01:12 . Memory (MB): peak = 1183.070 ; gain = 84.418 
+// Elapsed time: 73 seconds
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+// Elapsed time: 24 seconds
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "More info"); // M:h (B:ab, cd:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/ps7_0_axi_periph ; false ; Cortex_A9_ps7_0_axi_periph_0 [AXI Interconnect] (Up-to-date) ; No changes required ; Cortex_A9_ps7_0_axi_periph_0 [AXI Interconnect] (Up-to-date) ; AXI Interconnect ; 2.1 (Rev. 12) ; 2.1 (Rev. 12) ; Cortex_A9_ps7_0_axi_periph_0 [AXI Interconnect] (Up-to-date) ; xc7z020clg484-1", 5, "Cortex_A9_ps7_0_axi_periph_0 [AXI Interconnect] (Up-to-date)", 4, false); // B:ab (JViewport:JComponent, cd:JFrame)
+// PAPropertyPanels.initPanels (ps7_0_axi_periph) elapsed time: 0.2s
+// Change Log for AXI Interconnect: show
+selectButton(PAResourceItoN.IPStatusTablePanel_VIEW_FULL_LOG, "view full log"); // h:k (JPanel:JComponent, ResizableWindow:JWindow)
+// V:g (cd:JFrame): Change Log for AXI Interconnect: addNotify
+selectCodeEditor(PAResourceItoN.IPStatusTablePanel_VIEW_FULL_LOG, 373, 250); // U:I (JPanel:JComponent, V:g)
+selectCodeEditor(PAResourceItoN.IPStatusTablePanel_VIEW_FULL_LOG, 505, 343); // U:I (JPanel:JComponent, V:g)
+dismissDialog("Change Log for AXI Interconnect"); // V:g (cd:JFrame)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, ResizableWindow:JWindow)
+// Change Log for AXI Interconnect: hide
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify

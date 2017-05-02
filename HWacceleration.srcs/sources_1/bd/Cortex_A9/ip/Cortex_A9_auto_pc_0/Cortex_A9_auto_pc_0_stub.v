@@ -1,10 +1,10 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-// Date        : Sat Apr 29 20:37:58 2017
+// Date        : Sat Apr 29 20:37:57 2017
 // Host        : SURFACE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top Cortex_A9_auto_pc_0 -prefix
+//               Cortex_A9_auto_pc_0_ Cortex_A9_auto_pc_0_stub.v
 // Design      : Cortex_A9_auto_pc_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

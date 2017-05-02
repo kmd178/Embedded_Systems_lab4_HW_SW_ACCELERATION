@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab3_CustomIP/CustomIP.srcs/constrs_1/new/constraints_led.xdc rfile:../../../CustomIP.srcs/constrs_1/new/constraints_led.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/constrs_1/new/constraints_led.xdc rfile:../../../HWacceleration.srcs/constrs_1/new/constraints_led.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T22 [get_ports LED[0]]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
