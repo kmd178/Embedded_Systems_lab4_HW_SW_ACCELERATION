@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed May 03 01:46:56 2017">
+<application name="pa" timeStamp="Wed May 03 01:55:05 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="cb1565768c2245148f5e1d2ff4d82c0a" type="ProjectID"/>
 <property name="ProjectIteration" value="21" type="ProjectIteration"/>
@@ -32,7 +32,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="EditSimulationSets" value="1" type="JavaHandler"/>
 <property name="ExportBitFile" value="1" type="JavaHandler"/>
 <property name="IPPackagerHandler" value="4" type="JavaHandler"/>
-<property name="NewExportHardware" value="7" type="JavaHandler"/>
+<property name="NewExportHardware" value="9" type="JavaHandler"/>
 <property name="NewLaunchHardware" value="3" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
 <property name="OpenBlockDesign" value="8" type="JavaHandler"/>
@@ -56,11 +56,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="AddSrcWizard_SPECIFY_EXISTING_CONFIGURABLE_IP" value="1" type="GuiResourceData"/>
 <property name="AddressTreeTablePanel_ADDRESS_TREE_TABLE" value="1" type="GuiResourceData"/>
 <property name="ApplyRSBMultiAutomationDialog_CHECKBOX_TREE" value="12" type="GuiResourceData"/>
-<property name="BaseDialog_CANCEL" value="14" type="GuiResourceData"/>
+<property name="BaseDialog_CANCEL" value="15" type="GuiResourceData"/>
 <property name="BaseDialog_NO" value="1" type="GuiResourceData"/>
-<property name="BaseDialog_OK" value="87" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="89" type="GuiResourceData"/>
 <property name="BaseDialog_YES" value="11" type="GuiResourceData"/>
-<property name="BaseReportTab_RERUN" value="16" type="GuiResourceData"/>
+<property name="BaseReportTab_RERUN" value="17" type="GuiResourceData"/>
 <property name="CmdMsgDialog_OK" value="1" type="GuiResourceData"/>
 <property name="CommandsInput_TYPE_TCL_COMMAND_HERE" value="7" type="GuiResourceData"/>
 <property name="ConstraintsChooserPanel_CREATE_FILE" value="1" type="GuiResourceData"/>
@@ -86,13 +86,13 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="IdentificationContentPanel_DESCRIPTION" value="1" type="GuiResourceData"/>
 <property name="IdentificationContentPanel_VERSION" value="1" type="GuiResourceData"/>
 <property name="MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE" value="11" type="GuiResourceData"/>
-<property name="MainMenuMgr_EDIT" value="5" type="GuiResourceData"/>
-<property name="MainMenuMgr_EXPORT" value="22" type="GuiResourceData"/>
-<property name="MainMenuMgr_FILE" value="40" type="GuiResourceData"/>
-<property name="MainMenuMgr_FLOW" value="3" type="GuiResourceData"/>
+<property name="MainMenuMgr_EDIT" value="7" type="GuiResourceData"/>
+<property name="MainMenuMgr_EXPORT" value="26" type="GuiResourceData"/>
+<property name="MainMenuMgr_FILE" value="46" type="GuiResourceData"/>
+<property name="MainMenuMgr_FLOW" value="5" type="GuiResourceData"/>
 <property name="MainMenuMgr_HELP" value="2" type="GuiResourceData"/>
-<property name="MainMenuMgr_OPEN_RECENT_FILE" value="14" type="GuiResourceData"/>
-<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="12" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_FILE" value="16" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="14" type="GuiResourceData"/>
 <property name="MainMenuMgr_REPORT" value="1" type="GuiResourceData"/>
 <property name="MainMenuMgr_TOOLS" value="6" type="GuiResourceData"/>
 <property name="MainMenuMgr_WINDOW" value="4" type="GuiResourceData"/>
@@ -112,7 +112,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PACommandNames_EDIT_IN_IP_PACKAGER" value="5" type="GuiResourceData"/>
 <property name="PACommandNames_EDIT_SIMULATION_SETS" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_EXPORT_BITSTREAM_FILES" value="1" type="GuiResourceData"/>
-<property name="PACommandNames_EXPORT_HARDWARE" value="7" type="GuiResourceData"/>
+<property name="PACommandNames_EXPORT_HARDWARE" value="9" type="GuiResourceData"/>
 <property name="PACommandNames_GOTO_INSTANTIATION" value="3" type="GuiResourceData"/>
 <property name="PACommandNames_GOTO_NETLIST_DESIGN" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_IP_SETTINGS" value="1" type="GuiResourceData"/>
@@ -174,6 +174,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SystemTreeView_SYSTEM_TREE" value="1" type="GuiResourceData"/>
 <property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="2" type="GuiResourceData"/>
 <property name="TouchpointSurveyDialog_REMIND_ME_LATER" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="30" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="24" type="TclMode"/>
 </item>
 </section>
 </application>
