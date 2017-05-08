@@ -7,7 +7,7 @@
   <spirit:componentInstances>
     <spirit:componentInstance>
       <spirit:instanceName>Cortex_A9_led_ip_0_0</spirit:instanceName>
-      <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="kmd" spirit:name="led_ip" spirit:version="4.0"/>
+      <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="kmd" spirit:name="led_ip" spirit:version="5.0"/>
       <spirit:configurableElementValues>
         <spirit:configurableElementValue spirit:referenceId="ADDRBLOCK_BASE_ADDRESS.S_AXI.S_AXI_reg">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.ADDR_WIDTH">4</spirit:configurableElementValue>

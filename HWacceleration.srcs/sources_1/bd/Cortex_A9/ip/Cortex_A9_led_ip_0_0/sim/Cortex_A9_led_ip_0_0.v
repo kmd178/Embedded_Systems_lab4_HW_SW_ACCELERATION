@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 
-// IP VLNV: xilinx.com:kmd:led_ip:4.0
+// IP VLNV: xilinx.com:kmd:led_ip:5.0
 // IP Revision: 1
 
 `timescale 1ns/1ps

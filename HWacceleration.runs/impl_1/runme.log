@@ -18,24 +18,25 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kmd17/Documents/GitHub
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_1/Cortex_A9_axi_gpio_0_1.dcp' for cell 'Cortex_A9_i/sws_8bits'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.dcp' for cell 'Cortex_A9_i/ps7_0_axi_periph/xbar'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0.dcp' for cell 'Cortex_A9_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'Cortex_A9_wrapper' is not ideal for floorplanning, since the cellview 'Cortex_A9_led_ip_0_0_multiplicator' defined in file 'Cortex_A9_led_ip_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-479] Netlist was created with Vivado 2016.4
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6204]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6211]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6218]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6225]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6232]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5151]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5158]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5165]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5172]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5179]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5186]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5193]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-11728-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5200]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6204]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6211]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6218]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6225]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6232]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5151]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5158]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5165]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5172]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5179]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5186]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5193]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5200]
 Parsing XDC File [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.xdc] for cell 'Cortex_A9_i/processing_system7_0/inst'
 Finished Parsing XDC File [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.xdc] for cell 'Cortex_A9_i/processing_system7_0/inst'
 Parsing XDC File [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_0/Cortex_A9_axi_gpio_0_0_board.xdc] for cell 'Cortex_A9_i/btns_5bits/U0'
@@ -60,10 +61,9 @@ INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC const
 INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0.dcp'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 34 instances were transformed.
-  RAM16X1S => RAM32X1S (RAMS32): 34 instances
+No Unisim elements were transformed.
 
-link_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 547.539 ; gain = 301.496
+link_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 570.781 ; gain = 324.633
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -74,46 +74,46 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 557.496 ; gain = 9.957
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 579.664 ; gain = 8.883
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
-Implement Debug Cores | Checksum: 1dd5cc702
+Implement Debug Cores | Checksum: f21a4687
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 1858df50b
+Phase 1 Retarget | Checksum: fcd1aa6b
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.407 . Memory (MB): peak = 990.223 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1092.855 ; gain = 0.000
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-10] Eliminated 51 cells.
-Phase 2 Constant propagation | Checksum: 104097401
+Phase 2 Constant propagation | Checksum: 19b8e2b38
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 990.223 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1092.855 ; gain = 0.000
 
 Phase 3 Sweep
-INFO: [Opt 31-12] Eliminated 333 unconnected nets.
+INFO: [Opt 31-12] Eliminated 168 unconnected nets.
 INFO: [Opt 31-11] Eliminated 199 unconnected cells.
-Phase 3 Sweep | Checksum: 20c222070
+Phase 3 Sweep | Checksum: 124047fc0
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 990.223 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1092.855 ; gain = 0.000
 
 Phase 4 BUFG optimization
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
-Phase 4 BUFG optimization | Checksum: 1aea69d3e
+Phase 4 BUFG optimization | Checksum: 10d19851f
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 990.223 ; gain = 0.000
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1092.855 ; gain = 0.000
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 990.223 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 1aea69d3e
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1092.855 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 10d19851f
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 990.223 ; gain = 0.000
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1092.855 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -129,25 +129,26 @@ Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 2
-Ending PowerOpt Patch Enables Task | Checksum: 1aea69d3e
+Ending PowerOpt Patch Enables Task | Checksum: 10d19851f
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 1aea69d3e
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1190.785 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 10d19851f
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1088.375 ; gain = 98.152
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1190.785 ; gain = 97.930
 INFO: [Common 17-83] Releasing license: Implementation
-40 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+40 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1088.375 ; gain = 540.836
+opt_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:44 . Memory (MB): peak = 1190.785 ; gain = 620.004
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.188 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.297 . Memory (MB): peak = 1190.785 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1190.785 ; gain = 0.000
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper_drc_opted.rpt.
-report_drc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1088.375 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1190.785 ; gain = 0.000
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
 or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
@@ -159,109 +160,100 @@ INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
 INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
 Running DRC as a precondition to command place_design
 INFO: [DRC 23-27] Running DRC with 2 threads
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1//i___0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1//i___0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1//i___0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[0] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[0] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[0] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[1] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[1] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[1] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[2] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[2] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[2] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[3] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[3] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[3] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 15 Warnings
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/g0_b0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/g0_b0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/g0_b0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENBWREN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_1_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENBWREN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_1_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENBWREN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_1_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 6 Warnings
 INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
 
 Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1190.785 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: eb6ab80d
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 198582dd8
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 1.2 Build Placer Netlist Model
-Phase 1.2 Build Placer Netlist Model | Checksum: 1260e6a77
+Phase 1.2 Build Placer Netlist Model | Checksum: 1c404a3d7
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 1.3 Constrain Clocks/Macros
-Phase 1.3 Constrain Clocks/Macros | Checksum: 1260e6a77
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1c404a3d7
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 1260e6a77
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1190.785 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1c404a3d7
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: f4dd110e
+Phase 2 Global Placement | Checksum: 1b0d25b5b
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:00 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: f4dd110e
+Phase 3.1 Commit Multi Column Macros | Checksum: 1b0d25b5b
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:01 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1906ad1e1
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 169bf1537
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:10 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 13e1a9b8f
+Phase 3.3 Area Swap Optimization | Checksum: 161f90a73
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:11 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 13e1a9b8f
+Phase 3.4 Pipeline Register Optimization | Checksum: 161f90a73
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:11 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 13c17ea33
+Phase 3.5 Timing Path Optimizer | Checksum: 19ccdd3af
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:13 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.6 Fast Optimization
-Phase 3.6 Fast Optimization | Checksum: 1488467ab
+Phase 3.6 Fast Optimization | Checksum: 170039ae5
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:15 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.7 Small Shape Detail Placement
-Phase 3.7 Small Shape Detail Placement | Checksum: 1551e9572
+Phase 3.7 Small Shape Detail Placement | Checksum: 151d35231
 
-Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:02:20 ; elapsed = 00:01:42 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.8 Re-assign LUT pins
-Phase 3.8 Re-assign LUT pins | Checksum: a7fb0a0f
+Phase 3.8 Re-assign LUT pins | Checksum: 11ba019c6
 
-Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:43 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.9 Pipeline Register Optimization
-Phase 3.9 Pipeline Register Optimization | Checksum: a7fb0a0f
+Phase 3.9 Pipeline Register Optimization | Checksum: 11ba019c6
 
-Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:02:22 ; elapsed = 00:01:43 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 3.10 Fast Optimization
-Phase 3.10 Fast Optimization | Checksum: 116963b8c
+Phase 3.10 Fast Optimization | Checksum: 1f3a6d1c3
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 116963b8c
+Time (s): cpu = 00:02:32 ; elapsed = 00:01:50 . Memory (MB): peak = 1190.785 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1f3a6d1c3
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:50 . Memory (MB): peak = 1190.785 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -269,47 +261,48 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-INFO: [Place 30-746] Post Placement Timing Summary WNS=-1.873. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 114df5028
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.412. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1c99a882e
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 114df5028
+Time (s): cpu = 00:05:21 ; elapsed = 00:04:36 . Memory (MB): peak = 1201.246 ; gain = 10.461
+Phase 4.1 Post Commit Optimization | Checksum: 1c99a882e
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:05:22 ; elapsed = 00:04:37 . Memory (MB): peak = 1201.246 ; gain = 10.461
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 114df5028
+Phase 4.2 Post Placement Cleanup | Checksum: 1c99a882e
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:05:23 ; elapsed = 00:04:38 . Memory (MB): peak = 1201.246 ; gain = 10.461
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 114df5028
+Phase 4.3 Placer Reporting | Checksum: 1c99a882e
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:05:23 ; elapsed = 00:04:38 . Memory (MB): peak = 1201.246 ; gain = 10.461
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 12f831fbf
+Phase 4.4 Final Placement Cleanup | Checksum: 19d771a36
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12f831fbf
+Time (s): cpu = 00:05:23 ; elapsed = 00:04:38 . Memory (MB): peak = 1201.246 ; gain = 10.461
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19d771a36
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
-Ending Placer Task | Checksum: 47ab2bf3
+Time (s): cpu = 00:05:23 ; elapsed = 00:04:38 . Memory (MB): peak = 1201.246 ; gain = 10.461
+Ending Placer Task | Checksum: 110750ecc
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Time (s): cpu = 00:05:23 ; elapsed = 00:04:38 . Memory (MB): peak = 1201.246 ; gain = 10.461
 INFO: [Common 17-83] Releasing license: Implementation
-56 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+56 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.375 ; gain = 0.000
+place_design: Time (s): cpu = 00:05:37 ; elapsed = 00:04:45 . Memory (MB): peak = 1201.246 ; gain = 10.461
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.784 . Memory (MB): peak = 1088.375 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.246 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper_placed.dcp' has been generated.
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.120 . Memory (MB): peak = 1088.375 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 1088.375 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1088.375 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 1201.246 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1201.246 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.425 . Memory (MB): peak = 1201.246 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.157 . Memory (MB): peak = 1201.246 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -321,173 +314,123 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 94ba923 ConstDB: 0 ShapeSum: 3e5f82d0 RouteDB: 0
+Checksum: PlaceDB: 49607329 ConstDB: 0 ShapeSum: c7149ba3 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 6b9d9f2a
+Phase 1 Build RT Design | Checksum: 11e697f98
 
-Time (s): cpu = 00:01:00 ; elapsed = 00:00:53 . Memory (MB): peak = 1175.176 ; gain = 86.801
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:48 . Memory (MB): peak = 1299.441 ; gain = 91.676
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 6b9d9f2a
+Phase 2.1 Create Timer | Checksum: 11e697f98
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:53 . Memory (MB): peak = 1175.176 ; gain = 86.801
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:49 . Memory (MB): peak = 1299.441 ; gain = 91.676
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 6b9d9f2a
+Phase 2.2 Fix Topology Constraints | Checksum: 11e697f98
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:53 . Memory (MB): peak = 1178.750 ; gain = 90.375
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:50 . Memory (MB): peak = 1299.441 ; gain = 91.676
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 6b9d9f2a
+Phase 2.3 Pre Route Cleanup | Checksum: 11e697f98
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:53 . Memory (MB): peak = 1178.750 ; gain = 90.375
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:50 . Memory (MB): peak = 1299.441 ; gain = 91.676
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 128456875
+Phase 2.4 Update Timing | Checksum: 213804a3c
 
-Time (s): cpu = 00:01:03 ; elapsed = 00:00:55 . Memory (MB): peak = 1201.359 ; gain = 112.984
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.831 | TNS=-23.345| WHS=-0.181 | THS=-38.934|
+Time (s): cpu = 00:01:20 ; elapsed = 00:01:02 . Memory (MB): peak = 1324.746 ; gain = 116.980
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.666  | TNS=0.000  | WHS=-0.239 | THS=-30.852|
 
-Phase 2 Router Initialization | Checksum: e92d2b96
+Phase 2 Router Initialization | Checksum: 2320ca7ba
 
-Time (s): cpu = 00:01:04 ; elapsed = 00:00:56 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:06 . Memory (MB): peak = 1328.730 ; gain = 120.965
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 1f62a3380
+Phase 3 Initial Routing | Checksum: 1e86af6cb
 
-Time (s): cpu = 00:01:05 ; elapsed = 00:00:56 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:16 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 110
- Number of Nodes with overlaps = 8
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 0
-
-Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 172f096db
-
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:58 . Memory (MB): peak = 1201.359 ; gain = 112.984
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-2.250 | TNS=-29.327| WHS=N/A    | THS=N/A    |
-
-
-Phase 4.1.2 GlobIterForTiming
-
-Phase 4.1.2.1 Update Timing
-Phase 4.1.2.1 Update Timing | Checksum: fbc8a19e
-
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:58 . Memory (MB): peak = 1201.359 ; gain = 112.984
-
-Phase 4.1.2.2 Fast Budgeting
-Phase 4.1.2.2 Fast Budgeting | Checksum: 176b98587
-
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:58 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 4.1.2 GlobIterForTiming | Checksum: 1ffc856f0
-
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:58 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 4.1 Global Iteration 0 | Checksum: 1ffc856f0
-
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:58 . Memory (MB): peak = 1201.359 ; gain = 112.984
-
-Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 12
- Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 4078
+ Number of Nodes with overlaps = 453
+ Number of Nodes with overlaps = 93
+ Number of Nodes with overlaps = 13
  Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
 
-Phase 4.2.1 Update Timing
-Phase 4.2.1 Update Timing | Checksum: 22cc1ad99
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 153096937
 
-Time (s): cpu = 00:01:09 ; elapsed = 00:00:59 . Memory (MB): peak = 1201.359 ; gain = 112.984
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-2.208 | TNS=-28.682| WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:03:09 ; elapsed = 00:02:02 . Memory (MB): peak = 1335.594 ; gain = 127.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.062  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
+Phase 4.1 Global Iteration 0 | Checksum: 16cb2a833
 
-Phase 4.2.2 GlobIterForTiming
+Time (s): cpu = 00:03:10 ; elapsed = 00:02:02 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
-Phase 4.2.2.1 Update Timing
-Phase 4.2.2.1 Update Timing | Checksum: 1c1458736
-
-Time (s): cpu = 00:01:09 ; elapsed = 00:00:59 . Memory (MB): peak = 1201.359 ; gain = 112.984
-
-Phase 4.2.2.2 Fast Budgeting
-Phase 4.2.2.2 Fast Budgeting | Checksum: 10345288e
-
-Time (s): cpu = 00:01:10 ; elapsed = 00:00:59 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 4.2.2 GlobIterForTiming | Checksum: 1d8125eef
-
-Time (s): cpu = 00:01:10 ; elapsed = 00:00:59 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 4.2 Global Iteration 1 | Checksum: 1d8125eef
-
-Time (s): cpu = 00:01:10 ; elapsed = 00:00:59 . Memory (MB): peak = 1201.359 ; gain = 112.984
-
-Phase 4.3 Global Iteration 2
- Number of Nodes with overlaps = 11
- Number of Nodes with overlaps = 6
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 42
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 2
  Number of Nodes with overlaps = 0
 
-Phase 4.3.1 Update Timing
-Phase 4.3.1 Update Timing | Checksum: 1baeb8af4
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 212d5fb04
 
-Time (s): cpu = 00:01:10 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-2.248 | TNS=-29.284| WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:03:20 ; elapsed = 00:02:11 . Memory (MB): peak = 1335.594 ; gain = 127.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.062  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.3 Global Iteration 2 | Checksum: 2655b8a77
+Phase 4.2 Global Iteration 1 | Checksum: 1977b51eb
 
-Time (s): cpu = 00:01:10 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 4 Rip-up And Reroute | Checksum: 2655b8a77
+Time (s): cpu = 00:03:21 ; elapsed = 00:02:12 . Memory (MB): peak = 1335.594 ; gain = 127.828
+Phase 4 Rip-up And Reroute | Checksum: 1977b51eb
 
-Time (s): cpu = 00:01:10 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:21 ; elapsed = 00:02:12 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1977b51eb
 
-Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 1ec103310
-
-Time (s): cpu = 00:01:11 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-2.093 | TNS=-26.957| WHS=N/A    | THS=N/A    |
-
- Number of Nodes with overlaps = 0
-Phase 5.1 Delay CleanUp | Checksum: 14d7c815b
-
-Time (s): cpu = 00:01:11 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:21 ; elapsed = 00:02:12 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 14d7c815b
+Phase 5.2 Clock Skew Optimization | Checksum: 1977b51eb
 
-Time (s): cpu = 00:01:11 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 5 Delay and Skew Optimization | Checksum: 14d7c815b
+Time (s): cpu = 00:03:22 ; elapsed = 00:02:12 . Memory (MB): peak = 1335.594 ; gain = 127.828
+Phase 5 Delay and Skew Optimization | Checksum: 1977b51eb
 
-Time (s): cpu = 00:01:11 ; elapsed = 00:01:00 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:22 ; elapsed = 00:02:13 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 1123ba5e9
+Phase 6.1.1 Update Timing | Checksum: 2312f79a1
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-2.089 | TNS=-26.897| WHS=0.039  | THS=0.000  |
+Time (s): cpu = 00:03:25 ; elapsed = 00:02:14 . Memory (MB): peak = 1335.594 ; gain = 127.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.062  | TNS=0.000  | WHS=0.016  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 11ba9618d
+Phase 6.1 Hold Fix Iter | Checksum: 1d7a980f8
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
-Phase 6 Post Hold Fix | Checksum: 11ba9618d
+Time (s): cpu = 00:03:25 ; elapsed = 00:02:15 . Memory (MB): peak = 1335.594 ; gain = 127.828
+Phase 6 Post Hold Fix | Checksum: 1d7a980f8
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:25 ; elapsed = 00:02:15 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.273429 %
-  Global Horizontal Routing Utilization  = 0.362492 %
+  Global Vertical Routing Utilization    = 8.3615 %
+  Global Horizontal Routing Utilization  = 11.0655 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -496,100 +439,127 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Congestion Report
-North Dir 1x1 Area, Max Cong = 45.045%, No Congested Regions.
-South Dir 1x1 Area, Max Cong = 45.9459%, No Congested Regions.
-East Dir 1x1 Area, Max Cong = 50%, No Congested Regions.
-West Dir 1x1 Area, Max Cong = 33.8235%, No Congested Regions.
-Phase 7 Route finalize | Checksum: 18ba65bb7
+Phase 7 Route finalize | Checksum: 1c9007e13
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:26 ; elapsed = 00:02:15 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 18ba65bb7
+Phase 8 Verifying routed nets | Checksum: 1c9007e13
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:26 ; elapsed = 00:02:15 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 2206509db
+Phase 9 Depositing Routes | Checksum: 11564da02
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:29 ; elapsed = 00:02:18 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=-2.089 | TNS=-26.897| WHS=0.039  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.062  | TNS=0.000  | WHS=0.016  | THS=0.000  |
 
-WARNING: [Route 35-328] Router estimated timing not met.
-Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
-Phase 10 Post Router Timing | Checksum: 2206509db
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 11564da02
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:29 ; elapsed = 00:02:18 . Memory (MB): peak = 1335.594 ; gain = 127.828
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:01:01 . Memory (MB): peak = 1201.359 ; gain = 112.984
+Time (s): cpu = 00:03:31 ; elapsed = 00:02:20 . Memory (MB): peak = 1335.594 ; gain = 127.828
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-71 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+70 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:18 ; elapsed = 00:01:05 . Memory (MB): peak = 1201.359 ; gain = 112.984
+route_design: Time (s): cpu = 00:03:42 ; elapsed = 00:02:25 . Memory (MB): peak = 1335.594 ; gain = 134.348
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1201.359 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1335.594 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 1335.594 ; gain = 0.000
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper_drc_routed.rpt.
-report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.359 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1354.625 ; gain = 19.031
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper_methodology_drc_routed.rpt.
+report_methodology: Time (s): cpu = 00:00:32 ; elapsed = 00:00:19 . Memory (MB): peak = 1423.527 ; gain = 68.902
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1437.543 ; gain = 14.016
 Command: report_power -file Cortex_A9_wrapper_power_routed.rpt -pb Cortex_A9_wrapper_power_summary_routed.pb -rpx Cortex_A9_wrapper_power_routed.rpx
 Running Vector-less Activity Propagation...
 
 Finished Running Vector-less Activity Propagation
-81 Infos, 29 Warnings, 1 Critical Warnings and 0 Errors encountered.
+80 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
+report_power: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1489.281 ; gain = 51.738
+INFO: [Common 17-206] Exiting Vivado at Mon May 08 17:08:33 2017...
+
+*** Running vivado
+    with args -log Cortex_A9_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Cortex_A9_wrapper.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Cortex_A9_wrapper.tcl -notrace
+Command: open_checkpoint Cortex_A9_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 215.148 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'Cortex_A9_wrapper' is not ideal for floorplanning, since the cellview 'Cortex_A9_led_ip_0_0_multiplicator' defined in file 'Cortex_A9_led_ip_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6204]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6211]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6218]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6225]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/btns_5bits/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_3/Cortex_A9_axi_gpio_0_0.edf:6232]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5151]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5158]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5165]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5172]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5179]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5186]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5193]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'Cortex_A9_i/sws_8bits/gpio_io_i[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-5156-SURFACE/dcp_5/Cortex_A9_axi_gpio_0_1.edf:5200]
+Parsing XDC File [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-1076-SURFACE/dcp/Cortex_A9_wrapper_early.xdc]
+Finished Parsing XDC File [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-1076-SURFACE/dcp/Cortex_A9_wrapper_early.xdc]
+Parsing XDC File [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-1076-SURFACE/dcp/Cortex_A9_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/.Xil/Vivado-1076-SURFACE/dcp/Cortex_A9_wrapper.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 598.898 ; gain = 32.762
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 598.898 ; gain = 32.762
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.4 (64-bit) build 1756540
+open_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 598.898 ; gain = 388.660
 Command: write_bitstream -force -no_partial_bitfile Cortex_A9_wrapper.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
 Running DRC as a precondition to command write_bitstream
 INFO: [DRC 23-27] Running DRC with 2 threads
-WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in input Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
-WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in input Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
-WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0 input Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
-WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0 input Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
-WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1 input Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
-WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1 input Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
-WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in output Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
-WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0 output Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
-WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1 output Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
-WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in multiplier stage Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
-WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0 multiplier stage Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
-WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1 multiplier stage Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/p_1_in__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1//i___0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1//i___0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1//i___0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[0] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[0] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[0] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[1] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[1] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[1] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[2] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[2] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[2] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[3] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[3] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/WEBWE[3] (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_6_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-INFO: [Vivado 12-3199] DRC finished with 0 Errors, 27 Warnings
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/g0_b0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/g0_b0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENARDEN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/g0_b0_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENBWREN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_1_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENBWREN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_1_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg has an input control pin Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg/ENBWREN (net: Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/memInputY_reg_i_1_n_0) which is driven by a register (Cortex_A9_i/led_ip/inst/led_ip_v1_0_S_AXI_inst/kmd1/FSM_sequential_state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 6 Warnings
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
 Loading data files...
 Loading site data...
@@ -600,9 +570,8 @@ Creating bitstream...
 Writing bitstream ./Cortex_A9_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed May 03 01:53:51 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-89 Infos, 56 Warnings, 1 Critical Warnings and 0 Errors encountered.
+14 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:01:12 ; elapsed = 00:01:28 . Memory (MB): peak = 1576.238 ; gain = 353.074
-INFO: [Common 17-206] Exiting Vivado at Wed May 03 01:53:52 2017...
+write_bitstream: Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 1014.879 ; gain = 415.980
+INFO: [Common 17-206] Exiting Vivado at Mon May 08 17:26:33 2017...

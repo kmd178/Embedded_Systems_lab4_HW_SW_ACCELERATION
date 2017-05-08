@@ -221,7 +221,7 @@
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>led_ip</spirit:instanceName>
-        <spirit:componentRef spirit:library="kmd" spirit:name="led_ip" spirit:vendor="xilinx.com" spirit:version="4.0"/>
+        <spirit:componentRef spirit:library="kmd" spirit:name="led_ip" spirit:vendor="xilinx.com" spirit:version="5.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">Cortex_A9_led_ip_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>

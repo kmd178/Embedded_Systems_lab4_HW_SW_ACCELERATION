@@ -2,7 +2,7 @@
 #include "xgpio.h"
 #include "led_ip.h"
 //====================================================
-#define N 20
+#define N 10
 void CPU_test(int X[],int Y[]);
 void FPGA_test(int X[N], int Y[N]);
 int main (void)
@@ -22,8 +22,8 @@ int main (void)
 	  xil_printf("-- Start of the Program4 --\r\n");
 	  FPGA_test(X,Y2);
 
-	  xil_printf("-- Program End --\r\n %x", Y2[2]);
-	  xil_printf("-- Program End --\r\n %x", Y2[10]);
+
+	  xil_printf("Y[%d]=%d \r\n",5, Y2[5]);
 }
 
 void CPU_test(int X[],int Y[]){
@@ -36,34 +36,34 @@ void CPU_test(int X[],int Y[]){
 
 void FPGA_test(int X[], int Y[]) {
 	  int i;
-	  xil_printf("-- idle --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
-	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0); //start accelerator
 
-	  xil_printf("-- receive LENGTH --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
-	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, N); //sent array size info
+	  //FPGA:Idle_state__slv_reg_rden
+	  xil_printf("--idle=2--%x \r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
 
-	  xil_printf("-- receive vector --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
+	  //FPGA:set_vector_size__slv_reg_wren
+	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 10); //start accelerator //this take 2 cycles
+
+	  //FPGA:receive_vector___slv_reg_wren  (if the above slv_reg_wren lasts more than 1 cycle then the printed state below will be 5 before we finish loop)
 	  for (i=0; i<N ; i++) {							  //sent input vector X
-	  	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, X[i]);
+		  xil_printf("-- receiveVEcTOR[%d]=4 --%x \r\n",i, LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
+	  	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, i);
 	  }
 
-	  xil_printf("-- waitin --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
-	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0); //start computation
+	  //FPGA:waiting_signal (to start the computation)___slv_reg_rden  (when SLV_REG2==1)
+	  xil_printf("-- waiting_signal=5--%x \r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
 
-	  xil_printf("-- Stdam2 --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
-	  LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0); //start computation
+	  //FPGA:computation   (might be stealing the first value of Y[i], because slv_reg_rden remains active for 2 clock cycles)
+	  while(LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET!=1)) {
+		  xil_printf("-- computation=6--%x \r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
+	  }
 
-	  xil_printf("-- Stdam3 --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
-	  for (i=0; i<999999999; i++);
-	  //while(!LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET)) {} //freeze while accelerator computes the result
-	  xil_printf("-- Stdam4 --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
+	  //LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 10); saving the first value of Y (if last Y[i] are 0 the mReadReg above has affected the output)
+
+	  //FPGA:sent_vector___slv_reg_rden
 	  for (i=0; i<N ; i++) {							  //receive output vector Y
 		  Y[i]=LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG1_OFFSET);
+		  xil_printf("Y[%d]=%d \r\n",i, Y[i]);
 	  }
-	  xil_printf("-- Stdam5 --\r %x \n");
-	  //reading the value of grayout,  LED_IP_S_AXI_SLV_REG1_OFFSET=4  4*8bytes after slv1
-
-
-	  //xil_printf("Current counter value: %x\r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG1_OFFSET) );
+	  xil_printf("-- FINISHED RECEIVING VECTOR --\r\n");
 	  return;
 }

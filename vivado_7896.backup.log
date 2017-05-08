@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu May 04 09:29:15 2017
+# Process ID: 7896
+# Current directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10700 C:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\HWacceleration.xpr
+# Log file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/vivado.log
+# Journal file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 843.645 ; gain = 171.508
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 04 11:52:34 2017...

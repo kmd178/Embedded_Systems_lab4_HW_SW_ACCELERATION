@@ -1,4 +1,4 @@
-01:46:27 **** Auto Build of configuration Debug for project lab4 ****
+17:38:26 **** Auto Build of configuration Debug for project lab4 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -15,9 +15,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size lab4.elf  |tee "lab4.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25796	   1148	  22568	  49512	   c168	lab4.elf
+  25636	   1148	  22568	  49352	   c0c8	lab4.elf
 'Finished building: lab4.elf.size'
 ' '
 
-01:46:32 Build Finished (took 4s.561ms)
+17:38:27 Build Finished (took 744ms)
 
