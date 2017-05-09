@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Wed May 10 00:12:30 2017
+| Date         : Wed May 10 02:08:16 2017
 | Host         : SURFACE running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Cortex_A9_wrapper_methodology_drc_routed.rpt -rpx Cortex_A9_wrapper_methodology_drc_routed.rpx
 | Design       : Cortex_A9_wrapper
@@ -23,78 +23,153 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 13
-+-----------+----------+-------------------------------+------------+
-| Rule      | Severity | Description                   | Violations |
-+-----------+----------+-------------------------------+------------+
-| TIMING-18 | Warning  | Missing input or output delay | 13         |
-+-----------+----------+-------------------------------+------------+
+             Violations found: 28
++-----------+----------+-----------------------+------------+
+| Rule      | Severity | Description           | Violations |
++-----------+----------+-----------------------+------------+
+| TIMING-16 | Warning  | Large setup violation | 28         |
++-----------+----------+-----------------------+------------+
 
 2. REPORT DETAILS
 -----------------
-TIMING-18#1 Warning
-Missing input or output delay  
-An input delay is missing on btns_5bits_tri_i[0] relative to clock(s) clk_fpga_0 
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.120 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__35/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#2 Warning
-Missing input or output delay  
-An input delay is missing on btns_5bits_tri_i[1] relative to clock(s) clk_fpga_0 
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.186 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__36/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#3 Warning
-Missing input or output delay  
-An input delay is missing on btns_5bits_tri_i[2] relative to clock(s) clk_fpga_0 
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.237 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__44/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#4 Warning
-Missing input or output delay  
-An input delay is missing on btns_5bits_tri_i[3] relative to clock(s) clk_fpga_0 
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.329 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__43/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#5 Warning
-Missing input or output delay  
-An input delay is missing on btns_5bits_tri_i[4] relative to clock(s) clk_fpga_0 
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.374 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__60/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#6 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[0] relative to clock(s) clk_fpga_0 
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.380 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__40/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#7 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[1] relative to clock(s) clk_fpga_0 
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.390 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__37/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#8 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[2] relative to clock(s) clk_fpga_0 
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.421 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__39/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#9 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[3] relative to clock(s) clk_fpga_0 
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.422 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__62/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#10 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[4] relative to clock(s) clk_fpga_0 
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.440 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__38/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#11 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[5] relative to clock(s) clk_fpga_0 
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.504 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__48/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#12 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[6] relative to clock(s) clk_fpga_0 
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -1.519 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__42/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
-TIMING-18#13 Warning
-Missing input or output delay  
-An input delay is missing on sws_8bits_tri_i[7] relative to clock(s) clk_fpga_0 
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -1.546 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__41/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -1.558 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__47/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -1.572 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__45/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -1.585 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__49/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -1.600 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__55/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -1.606 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__57/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -1.611 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__54/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -1.623 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__53/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -1.625 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__52/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -1.636 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__51/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -1.644 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__46/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -1.680 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__50/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -1.719 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__58/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -1.732 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__56/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -1.733 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__61/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -1.743 ns between Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/i_reg[1]/C (clocked by clk_fpga_0) and Cortex_A9_i/handshake/inst/handshake_v1_0_S00_AXI_inst/kmd1/memInputY_reg_0_15_0_0__59/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 

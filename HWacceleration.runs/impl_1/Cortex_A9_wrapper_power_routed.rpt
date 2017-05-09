@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date             : Wed May 10 00:12:49 2017
+| Date             : Wed May 10 02:08:20 2017
 | Host             : SURFACE running 64-bit major release  (build 9200)
 | Command          : report_power -file Cortex_A9_wrapper_power_routed.rpt -pb Cortex_A9_wrapper_power_summary_routed.pb -rpx Cortex_A9_wrapper_power_routed.rpx
 | Design           : Cortex_A9_wrapper
@@ -29,41 +29,42 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+-------+
-| Total On-Chip Power (W)  | 1.756 |
-| Dynamic (W)              | 1.598 |
-| Device Static (W)        | 0.158 |
-| Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 64.7  |
-| Junction Temperature (C) | 45.3  |
-| Confidence Level         | Low   |
-| Setting File             | ---   |
-| Simulation Activity File | ---   |
-| Design Nets Matched      | NA    |
-+--------------------------+-------+
++--------------------------+--------+
+| Total On-Chip Power (W)  | 1.691  |
+| Dynamic (W)              | 1.537  |
+| Device Static (W)        | 0.154  |
+| Effective TJA (C/W)      | 11.5   |
+| Max Ambient (C)          | 65.5   |
+| Junction Temperature (C) | 44.5   |
+| Confidence Level         | Medium |
+| Setting File             | ---    |
+| Simulation Activity File | ---    |
+| Design Nets Matched      | NA     |
++--------------------------+--------+
 
 
 1.1 On-Chip Components
 ----------------------
 
-+-------------------------+-----------+----------+-----------+-----------------+
-| On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
-+-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.036 |        3 |       --- |             --- |
-| Slice Logic             |     0.011 |    42509 |       --- |             --- |
-|   LUT as Logic          |     0.010 |    10077 |     53200 |           18.94 |
-|   F7/F8 Muxes           |    <0.001 |     4001 |     53200 |            7.52 |
-|   Register              |    <0.001 |    25725 |    106400 |           24.18 |
-|   CARRY4                |    <0.001 |       41 |     13300 |            0.31 |
-|   LUT as Shift Register |    <0.001 |       62 |     17400 |            0.36 |
-|   Others                |     0.000 |      218 |       --- |             --- |
-| Signals                 |     0.025 |    33932 |       --- |             --- |
-| DSPs                    |     0.000 |        3 |       220 |            1.36 |
-| I/O                     |    <0.001 |       21 |       200 |           10.50 |
-| PS7                     |     1.527 |        1 |       --- |             --- |
-| Static Power            |     0.158 |          |           |                 |
-| Total                   |     1.756 |          |           |                 |
-+-------------------------+-----------+----------+-----------+-----------------+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.006 |        3 |       --- |             --- |
+| Slice Logic              |     0.002 |     3975 |       --- |             --- |
+|   LUT as Logic           |     0.002 |     1182 |     53200 |            2.22 |
+|   Register               |    <0.001 |     2038 |    106400 |            1.92 |
+|   CARRY4                 |    <0.001 |       54 |     13300 |            0.41 |
+|   F7/F8 Muxes            |    <0.001 |      129 |     53200 |            0.24 |
+|   LUT as Shift Register  |    <0.001 |       62 |     17400 |            0.36 |
+|   Others                 |     0.000 |      205 |       --- |             --- |
+|   LUT as Distributed RAM |     0.000 |       98 |     17400 |            0.56 |
+| Signals                  |     0.003 |     3232 |       --- |             --- |
+| DSPs                     |     0.000 |        6 |       220 |            2.73 |
+| I/O                      |     0.000 |        8 |       200 |            4.00 |
+| PS7                      |     1.527 |        1 |       --- |             --- |
+| Static Power             |     0.154 |          |           |                 |
+| Total                    |     1.691 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
 
 
 1.2 Power Supply Summary
@@ -72,10 +73,10 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.087 |       0.072 |      0.015 |
+| Vccint    |       1.000 |     0.025 |       0.010 |      0.015 |
 | Vccaux    |       1.800 |     0.021 |       0.000 |      0.021 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
-| Vcco25    |       2.500 |     0.001 |       0.000 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.001 |       0.000 |      0.001 |
 | Vcco15    |       1.500 |     0.001 |       0.000 |      0.001 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
@@ -85,7 +86,7 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccpint   |       1.000 |     0.754 |       0.723 |      0.031 |
+| Vccpint   |       1.000 |     0.753 |       0.723 |      0.030 |
 | Vccpaux   |       1.800 |     0.060 |       0.050 |      0.010 |
 | Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |
 | Vcco_ddr  |       1.500 |     0.459 |       0.457 |      0.002 |
@@ -98,17 +99,17 @@ Table of Contents
 1.3 Confidence Level
 --------------------
 
-+-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
-+-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| Design implementation state | High       | Design is routed                                       |                                                                                                            |
-| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
-| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
-| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
-| Device models               | High       | Device models are Production                           |                                                                                                            |
-|                             |            |                                                        |                                                                                                            |
-| Overall confidence level    | Low        |                                                        |                                                                                                            |
-+-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
++-----------------------------+------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                        | Action                                                                                                     |
++-----------------------------+------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                               |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks         |                                                                                                            |
+| I/O nodes activity          | High       | User specified more than 95% of inputs         |                                                                                                            |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                   |                                                                                                            |
+|                             |            |                                                |                                                                                                            |
+| Overall confidence level    | Medium     |                                                |                                                                                                            |
++-----------------------------+------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------+
 
 
 2. Settings
@@ -148,23 +149,117 @@ Table of Contents
 +--------------------------------------------------+-----------+
 | Name                                             | Power (W) |
 +--------------------------------------------------+-----------+
-| Cortex_A9_wrapper                                |     1.598 |
-|   Cortex_A9_i                                    |     1.598 |
-|     btns_5bits                                   |    <0.001 |
-|       U0                                         |    <0.001 |
-|         AXI_LITE_IPIF_I                          |    <0.001 |
-|           I_SLAVE_ATTACHMENT                     |    <0.001 |
-|             I_DECODER                            |    <0.001 |
-|         INTR_CTRLR_GEN.INTERRUPT_CONTROL_I       |    <0.001 |
-|         gpio_core_1                              |    <0.001 |
-|           Not_Dual.INPUT_DOUBLE_REGS3            |    <0.001 |
-|     led_ip                                       |     0.057 |
-|       inst                                       |     0.057 |
-|         led_ip_v1_0_S_AXI_inst                   |     0.057 |
-|           kmd1                                   |     0.057 |
-|     processing_system7_0                         |     1.537 |
-|       inst                                       |     1.537 |
-|     ps7_0_axi_periph                             |     0.003 |
+| Cortex_A9_wrapper                                |     1.537 |
+|   Cortex_A9_i                                    |     1.537 |
+|     handshake                                    |     0.002 |
+|       inst                                       |     0.002 |
+|         handshake_v1_0_S00_AXI_inst              |     0.002 |
+|           kmd1                                   |     0.001 |
+|             memInputX_reg_0_15_0_0               |    <0.001 |
+|             memInputX_reg_0_15_0_0__0            |    <0.001 |
+|             memInputX_reg_0_15_0_0__1            |    <0.001 |
+|             memInputX_reg_0_15_0_0__10           |    <0.001 |
+|             memInputX_reg_0_15_0_0__11           |    <0.001 |
+|             memInputX_reg_0_15_0_0__12           |    <0.001 |
+|             memInputX_reg_0_15_0_0__13           |    <0.001 |
+|             memInputX_reg_0_15_0_0__14           |    <0.001 |
+|             memInputX_reg_0_15_0_0__15           |    <0.001 |
+|             memInputX_reg_0_15_0_0__16           |    <0.001 |
+|             memInputX_reg_0_15_0_0__17           |    <0.001 |
+|             memInputX_reg_0_15_0_0__18           |    <0.001 |
+|             memInputX_reg_0_15_0_0__19           |    <0.001 |
+|             memInputX_reg_0_15_0_0__2            |    <0.001 |
+|             memInputX_reg_0_15_0_0__20           |    <0.001 |
+|             memInputX_reg_0_15_0_0__21           |    <0.001 |
+|             memInputX_reg_0_15_0_0__22           |    <0.001 |
+|             memInputX_reg_0_15_0_0__23           |    <0.001 |
+|             memInputX_reg_0_15_0_0__24           |    <0.001 |
+|             memInputX_reg_0_15_0_0__25           |    <0.001 |
+|             memInputX_reg_0_15_0_0__26           |    <0.001 |
+|             memInputX_reg_0_15_0_0__27           |    <0.001 |
+|             memInputX_reg_0_15_0_0__28           |    <0.001 |
+|             memInputX_reg_0_15_0_0__29           |    <0.001 |
+|             memInputX_reg_0_15_0_0__3            |    <0.001 |
+|             memInputX_reg_0_15_0_0__30           |    <0.001 |
+|             memInputX_reg_0_15_0_0__31           |    <0.001 |
+|             memInputX_reg_0_15_0_0__32           |    <0.001 |
+|             memInputX_reg_0_15_0_0__4            |    <0.001 |
+|             memInputX_reg_0_15_0_0__5            |    <0.001 |
+|             memInputX_reg_0_15_0_0__6            |    <0.001 |
+|             memInputX_reg_0_15_0_0__7            |    <0.001 |
+|             memInputX_reg_0_15_0_0__8            |    <0.001 |
+|             memInputX_reg_0_15_0_0__9            |    <0.001 |
+|             memInputY_reg_0_15_0_0               |    <0.001 |
+|             memInputY_reg_0_15_0_0__0            |    <0.001 |
+|             memInputY_reg_0_15_0_0__1            |    <0.001 |
+|             memInputY_reg_0_15_0_0__10           |    <0.001 |
+|             memInputY_reg_0_15_0_0__11           |    <0.001 |
+|             memInputY_reg_0_15_0_0__12           |    <0.001 |
+|             memInputY_reg_0_15_0_0__13           |    <0.001 |
+|             memInputY_reg_0_15_0_0__14           |    <0.001 |
+|             memInputY_reg_0_15_0_0__15           |    <0.001 |
+|             memInputY_reg_0_15_0_0__16           |    <0.001 |
+|             memInputY_reg_0_15_0_0__17           |    <0.001 |
+|             memInputY_reg_0_15_0_0__18           |    <0.001 |
+|             memInputY_reg_0_15_0_0__19           |    <0.001 |
+|             memInputY_reg_0_15_0_0__2            |    <0.001 |
+|             memInputY_reg_0_15_0_0__20           |    <0.001 |
+|             memInputY_reg_0_15_0_0__21           |    <0.001 |
+|             memInputY_reg_0_15_0_0__22           |    <0.001 |
+|             memInputY_reg_0_15_0_0__23           |    <0.001 |
+|             memInputY_reg_0_15_0_0__24           |    <0.001 |
+|             memInputY_reg_0_15_0_0__25           |    <0.001 |
+|             memInputY_reg_0_15_0_0__26           |    <0.001 |
+|             memInputY_reg_0_15_0_0__27           |    <0.001 |
+|             memInputY_reg_0_15_0_0__28           |    <0.001 |
+|             memInputY_reg_0_15_0_0__29           |    <0.001 |
+|             memInputY_reg_0_15_0_0__3            |    <0.001 |
+|             memInputY_reg_0_15_0_0__30           |    <0.001 |
+|             memInputY_reg_0_15_0_0__31           |    <0.001 |
+|             memInputY_reg_0_15_0_0__32           |    <0.001 |
+|             memInputY_reg_0_15_0_0__33           |    <0.001 |
+|             memInputY_reg_0_15_0_0__34           |    <0.001 |
+|             memInputY_reg_0_15_0_0__35           |    <0.001 |
+|             memInputY_reg_0_15_0_0__36           |    <0.001 |
+|             memInputY_reg_0_15_0_0__37           |    <0.001 |
+|             memInputY_reg_0_15_0_0__38           |    <0.001 |
+|             memInputY_reg_0_15_0_0__39           |    <0.001 |
+|             memInputY_reg_0_15_0_0__4            |    <0.001 |
+|             memInputY_reg_0_15_0_0__40           |    <0.001 |
+|             memInputY_reg_0_15_0_0__41           |    <0.001 |
+|             memInputY_reg_0_15_0_0__42           |    <0.001 |
+|             memInputY_reg_0_15_0_0__43           |    <0.001 |
+|             memInputY_reg_0_15_0_0__44           |    <0.001 |
+|             memInputY_reg_0_15_0_0__45           |    <0.001 |
+|             memInputY_reg_0_15_0_0__46           |    <0.001 |
+|             memInputY_reg_0_15_0_0__47           |    <0.001 |
+|             memInputY_reg_0_15_0_0__48           |    <0.001 |
+|             memInputY_reg_0_15_0_0__49           |    <0.001 |
+|             memInputY_reg_0_15_0_0__5            |    <0.001 |
+|             memInputY_reg_0_15_0_0__50           |    <0.001 |
+|             memInputY_reg_0_15_0_0__51           |    <0.001 |
+|             memInputY_reg_0_15_0_0__52           |    <0.001 |
+|             memInputY_reg_0_15_0_0__53           |    <0.001 |
+|             memInputY_reg_0_15_0_0__54           |    <0.001 |
+|             memInputY_reg_0_15_0_0__55           |    <0.001 |
+|             memInputY_reg_0_15_0_0__56           |    <0.001 |
+|             memInputY_reg_0_15_0_0__57           |    <0.001 |
+|             memInputY_reg_0_15_0_0__58           |    <0.001 |
+|             memInputY_reg_0_15_0_0__59           |    <0.001 |
+|             memInputY_reg_0_15_0_0__6            |    <0.001 |
+|             memInputY_reg_0_15_0_0__60           |    <0.001 |
+|             memInputY_reg_0_15_0_0__61           |    <0.001 |
+|             memInputY_reg_0_15_0_0__62           |    <0.001 |
+|             memInputY_reg_0_15_0_0__7            |    <0.001 |
+|             memInputY_reg_0_15_0_0__8            |    <0.001 |
+|             memInputY_reg_0_15_0_0__9            |    <0.001 |
+|     led_ip                                       |     0.004 |
+|       inst                                       |     0.004 |
+|         led_ip_v1_0_S_AXI_inst                   |     0.004 |
+|           kmd1                                   |     0.004 |
+|     processing_system7_0                         |     1.527 |
+|       inst                                       |     1.527 |
+|     ps7_0_axi_periph                             |     0.004 |
 |       s00_couplers                               |     0.003 |
 |         auto_pc                                  |     0.003 |
 |           inst                                   |     0.003 |
@@ -177,7 +272,7 @@ Table of Contents
 |               RD.r_channel_0                     |    <0.001 |
 |                 rd_data_fifo_0                   |    <0.001 |
 |                 transaction_fifo_0               |    <0.001 |
-|               SI_REG                             |    <0.001 |
+|               SI_REG                             |     0.001 |
 |                 ar_pipe                          |    <0.001 |
 |                 aw_pipe                          |    <0.001 |
 |                 b_pipe                           |    <0.001 |
@@ -204,13 +299,6 @@ Table of Contents
 |           ACTIVE_LOW_EXT.ACT_LO_EXT              |    <0.001 |
 |         SEQ                                      |    <0.001 |
 |           SEQ_COUNTER                            |    <0.001 |
-|     sws_8bits                                    |    <0.001 |
-|       U0                                         |    <0.001 |
-|         AXI_LITE_IPIF_I                          |    <0.001 |
-|           I_SLAVE_ATTACHMENT                     |    <0.001 |
-|             I_DECODER                            |    <0.001 |
-|         gpio_core_1                              |    <0.001 |
-|           Not_Dual.INPUT_DOUBLE_REGS3            |    <0.001 |
 +--------------------------------------------------+-----------+
 
 

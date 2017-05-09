@@ -167,40 +167,13 @@
 
 /******************************************************************/
 
-/* Definitions for driver GPIO */
-#define XPAR_XGPIO_NUM_INSTANCES 2
+/* Definitions for driver HANDSHAKE */
+#define XPAR_HANDSHAKE_NUM_INSTANCES 1
 
-/* Definitions for peripheral BTNS_5BITS */
-#define XPAR_BTNS_5BITS_BASEADDR 0x41200000
-#define XPAR_BTNS_5BITS_HIGHADDR 0x4120FFFF
-#define XPAR_BTNS_5BITS_DEVICE_ID 0
-#define XPAR_BTNS_5BITS_INTERRUPT_PRESENT 1
-#define XPAR_BTNS_5BITS_IS_DUAL 0
-
-
-/* Definitions for peripheral SWS_8BITS */
-#define XPAR_SWS_8BITS_BASEADDR 0x41210000
-#define XPAR_SWS_8BITS_HIGHADDR 0x4121FFFF
-#define XPAR_SWS_8BITS_DEVICE_ID 1
-#define XPAR_SWS_8BITS_INTERRUPT_PRESENT 0
-#define XPAR_SWS_8BITS_IS_DUAL 0
-
-
-/******************************************************************/
-
-/* Canonical definitions for peripheral BTNS_5BITS */
-#define XPAR_GPIO_0_BASEADDR 0x41200000
-#define XPAR_GPIO_0_HIGHADDR 0x4120FFFF
-#define XPAR_GPIO_0_DEVICE_ID XPAR_BTNS_5BITS_DEVICE_ID
-#define XPAR_GPIO_0_INTERRUPT_PRESENT 1
-#define XPAR_GPIO_0_IS_DUAL 0
-
-/* Canonical definitions for peripheral SWS_8BITS */
-#define XPAR_GPIO_1_BASEADDR 0x41210000
-#define XPAR_GPIO_1_HIGHADDR 0x4121FFFF
-#define XPAR_GPIO_1_DEVICE_ID XPAR_SWS_8BITS_DEVICE_ID
-#define XPAR_GPIO_1_INTERRUPT_PRESENT 0
-#define XPAR_GPIO_1_IS_DUAL 0
+/* Definitions for peripheral HANDSHAKE */
+#define XPAR_HANDSHAKE_DEVICE_ID 0
+#define XPAR_HANDSHAKE_S00_AXI_BASEADDR 0x43C10000
+#define XPAR_HANDSHAKE_S00_AXI_HIGHADDR 0x43C1FFFF
 
 
 /******************************************************************/
@@ -213,15 +186,6 @@
 #define XPAR_LED_IP_S_AXI_BASEADDR 0x43C00000
 #define XPAR_LED_IP_S_AXI_HIGHADDR 0x43C0FFFF
 
-
-/******************************************************************/
-
-/* Definitions for Fabric interrupts connected to ps7_scugic_0 */
-#define XPAR_FABRIC_BTNS_5BITS_IP2INTC_IRPT_INTR 61
-
-/******************************************************************/
-
-/* Canonical definitions for Fabric interrupts connected to ps7_scugic_0 */
 
 /******************************************************************/
 

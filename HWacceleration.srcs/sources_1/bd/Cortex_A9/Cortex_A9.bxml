@@ -2,20 +2,12 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="Cortex_A9" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1494363296"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1494363296"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1494363296"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1494370958"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1494370958"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1494370958"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\Cortex_A9_processing_system7_0_0\Cortex_A9_processing_system7_0_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip\Cortex_A9_axi_gpio_0_0\Cortex_A9_axi_gpio_0_0.xci" Type="IP">
-        <Instance HierarchyPath="btns_5bits"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -32,14 +24,6 @@
       </File>
       <File Name="ip\Cortex_A9_rst_ps7_0_100M_0\Cortex_A9_rst_ps7_0_100M_0.xci" Type="IP">
         <Instance HierarchyPath="rst_ps7_0_100M"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip\Cortex_A9_axi_gpio_0_1\Cortex_A9_axi_gpio_0_1.xci" Type="IP">
-        <Instance HierarchyPath="sws_8bits"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -63,6 +47,14 @@
       </File>
       <File Name="ip\Cortex_A9_led_ip_0_0\Cortex_A9_led_ip_0_0.xci" Type="IP">
         <Instance HierarchyPath="led_ip"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Cortex_A9_handshake_0_0_1\Cortex_A9_handshake_0_0.xci" Type="IP">
+        <Instance HierarchyPath="handshake"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>

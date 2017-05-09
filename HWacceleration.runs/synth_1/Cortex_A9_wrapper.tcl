@@ -17,6 +17,7 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
 set_property ip_repo_paths {
+  c:/Users/kmd17/Documents/GitHub/ip_repo/handshake_1.0
   c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0
   c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo
 } [current_project]
@@ -25,15 +26,9 @@ set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
 add_files C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd
 set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_0/Cortex_A9_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_0/Cortex_A9_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_0/Cortex_A9_axi_gpio_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_1/Cortex_A9_axi_gpio_0_1_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_1/Cortex_A9_axi_gpio_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_axi_gpio_0_1/Cortex_A9_axi_gpio_0_1.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9_ooc.xdc]

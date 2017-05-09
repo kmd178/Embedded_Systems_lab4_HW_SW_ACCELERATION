@@ -829,3 +829,1116 @@ dismissDialog("Export Hardware"); // X:q (cd:JFrame)
 selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "TNS", 4); // T:ab (JViewport:JComponent, cd:JFrame)
 selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "TNS", 4); // T:ab (JViewport:JComponent, cd:JFrame)
 selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "FF", 11); // T:ab (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 196 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 476, 48, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Elapsed time: 31 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "lite"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 490, 396, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 452, 397, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 492, 23, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi lite"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 788 MB. GUI used memory: 86 MB. Current time: 5/10/17 12:53:32 AM EEST
+// Elapsed time: 1618 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 444, 41, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Elapsed time: 22 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "lite"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 1, "AXI_Lite_kmd_edit", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 1); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 1, "AXI_Lite_kmd_edit", 0, false, false, false, false, false, true); // M:ab (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// bt:g (cd:JFrame):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:kmd:led_ip:6.0 led_ip_0 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets axi_gpio_0_GPIO] [get_bd_nets btns_5bits_ip2intc_irpt] [get_bd_cells btns_5bits] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_ports btns_5bits] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M01_AXI] [get_bd_intf_nets axi_gpio_0_GPIO1] [get_bd_cells sws_8bits] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_ports sws_8bits] 
+// Elapsed time: 443 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, cd:JFrame)
+// s:q (cd:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:q)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Run Connection Automation"); // s:q (cd:JFrame)
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins led_ip_0/S_AXI] 
+// Tcl Message: </led_ip_0/S_AXI/S_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C10000 [ 64K ]> 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 438, 52, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+// Tcl Command: 'set_property location {3 817 168} [get_bd_cells led_ip_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {3 817 168} [get_bd_cells led_ip_0] 
+// Elapsed time: 11 seconds
+setText(PAResourceQtoS.RSBBlockPropPanels_NAME, "handshake", true); // ak:JTextField (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'set_property name handshake [get_bd_cells led_ip_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name handshake [get_bd_cells led_ip_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 616, 231, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:q)
+// bt:g (cd:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name led_ip_v6_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/led_ip_v6_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/led_ip_v6_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data INFO: [IP_Flow 19-799] Syncing upgrade version meta-data 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1202.184 ; gain = 0.000 
+// 'i' command handler elapsed time: 11 seconds
+dismissDialog("Edit in IP Packager"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), kmd1 - multiplicator (led_ip_v1_0_S_AXI.v)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), kmd1 - multiplicator (led_ip_v1_0_S_AXI.v)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 893 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 162, 173); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 788 MB. GUI used memory: 103 MB. Current time: 5/10/17 1:23:35 AM EEST
+// Elapsed time: 129 seconds
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 290, 63); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 102 seconds
+selectTab((HResource) null, (HResource) null, "IP Status", 3); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// Tcl Message: current_project HWacceleration 
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+// TclEventType: IP_SUMMARY_RESULTS
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// bt:g (cd:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bt:g (cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 227, 207); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+closeMainWindow("led_ip_v6_0_project - [c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/led_ip_v6_0_project/led_ip_v6_0_project.xpr] - Vivado 2016.4"); // cd:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// y:aO (cd:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // y:aO (cd:JFrame)
+// Tcl Message: current_project led_ip_v6_0_project 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 788 MB. GUI used memory: 93 MB. Current time: 5/10/17 1:26:54 AM EEST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bt:g (cd:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton("PAResourceCommand.PACommandNames_UPGRADE_IP_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RUN_DELETE
+// Tcl Message: upgrade_ip [get_ips  {Cortex_A9_led_ip_0_1 Cortex_A9_led_ip_0_0}] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 6.0 to AXI_Lite_kmd_edit 6.0 INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_1 from AXI_Lite_kmd_edit 6.0 to AXI_Lite_kmd_edit 6.0 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ui/bd_a90798d6.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {Cortex_A9_led_ip_0_1 Cortex_A9_led_ip_0_0}] -no_script -sync -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 642, 181, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:q)
+// bt:g (cd:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, G:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name led_ip_v6_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/led_ip_v6_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/led_ip_v6_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data INFO: [IP_Flow 19-799] Syncing upgrade version meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1202.184 ; gain = 0.000 
+// 'i' command handler elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), kmd1 - multiplicator (led_ip_v1_0_S_AXI.v)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), kmd1 - multiplicator (led_ip_v1_0_S_AXI.v)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 396, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "led_ip_v1_0_S_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Message: current_project HWacceleration 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// bt:g (cd:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project led_ip_v6_0_project 
+dismissDialog("Refresh IP Catalog"); // bt:g (cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 310, 191); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Message: current_project HWacceleration 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// bt:g (cd:JFrame):  Refresh IP Catalog : addNotify
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project led_ip_v6_0_project 
+dismissDialog("Refresh IP Catalog"); // bt:g (cd:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton("PAResourceCommand.PACommandNames_UPGRADE_IP_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// Tcl Message: current_project HWacceleration 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: upgrade_ip [get_ips  {Cortex_A9_led_ip_0_1 Cortex_A9_led_ip_0_0}] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 6.0 to AXI_Lite_kmd_edit 6.0 INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_1 from AXI_Lite_kmd_edit 6.0 to AXI_Lite_kmd_edit 6.0 
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {Cortex_A9_led_ip_0_1 Cortex_A9_led_ip_0_0}] -no_script -sync -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 603, 389, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Elapsed time: 17 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "lite"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 1, "AXI_Lite_kmd_edit", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+// Elapsed time: 34 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 15, "AXI_Lite_kmd_edit", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 15, "AXI_Lite_kmd_edit", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 15); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI_Lite_kmd_edit", 15, "AXI_Lite_kmd_edit", 0, false, false, false, false, false, true); // M:ab (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// bt:g (cd:JFrame):  Add IP : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:kmd:led_ip:6.0 led_ip_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 658, 329, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Block Properties..."); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 635, 315, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_SETTINGS, "IP Settings..."); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_IP_SETTINGS
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells led_ip_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 32 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // y:i (D:JPanel, cd:JFrame)
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 266, 59); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: current_project led_ip_v6_0_project 
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// Tcl Message: current_project HWacceleration 
+// TclEventType: IP_SUMMARY_RESULTS
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// bt:g (cd:JFrame):  Refresh IP Catalog : addNotify
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bt:g (cd:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton("PAResourceCommand.PACommandNames_UPGRADE_IP_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: upgrade_ip [get_ips  {Cortex_A9_led_ip_0_1 Cortex_A9_led_ip_0_0}] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd' 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 6.0 to AXI_Lite_kmd_edit 6.0 INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_1 from AXI_Lite_kmd_edit 6.0 to AXI_Lite_kmd_edit 6.0 
+// Tcl Message: Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>  Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ui/bd_a90798d6.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {Cortex_A9_led_ip_0_1 Cortex_A9_led_ip_0_0}] -no_script -sync -force -quiet 
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 634, 248, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceEtoH.EditIPProjectNameChooser_PROJECT_NAME, "led_ip_v6_0_project78676"); // ak:JTextField (JPanel:JComponent, k:q)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, k:q)
+// 'i' command handler elapsed time: 11 seconds
+dismissDialog("Edit in IP Packager"); // k:q (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 638, 158, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, k:q)
+dismissDialog("Edit in IP Packager"); // k:q (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 640, 247, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+setText(PAResourceEtoH.EditIPProjectNameChooser_PROJECT_NAME, "led_ip_v6_0_to_del"); // ak:JTextField (JPanel:JComponent, k:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:q)
+// bt:g (cd:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name led_ip_v6_0_to_del -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/led_ip_v6_0_to_del c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/led_ip_v6_0_to_del' 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data INFO: [IP_Flow 19-799] Syncing upgrade version meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 12 seconds
+dismissDialog("Edit in IP Packager"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), kmd1 - multiplicator (led_ip_v1_0_S_AXI.v)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Tcl Message: current_project HWacceleration 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_cells handshake] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 195 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ab:JMenuItem (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// P:g (cd:JFrame): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+// Elapsed time: 20 seconds
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 BFM simulation and debug demonstration design."); // b:a (a:C, P:g)
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+// Elapsed time: 23 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+// [GUI Memory]: 171 MB (+2230kb) [04:37:58]
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+// Elapsed time: 15 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "AXI_Lite_kmd_edit_handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+// Elapsed time: 11 seconds
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v1."); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v1"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshakev"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshakev1"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshakev"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_edit_handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_edithandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_edit handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_edithandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_edihandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_edhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_ehandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmd_handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmdhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_kmhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_khandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lite_handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Litehandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lithandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lihandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_Lhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXI_handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXIhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "AXhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "Ahandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "Xhandshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshak_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handsha_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshas_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshask_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshas_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handsha_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handsh_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "hands_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "hand_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "han_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "ha_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "h_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "H_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "HA_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "HAN_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "HAND_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "HAN_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "HA_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "H_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, (String) null); // ak:JTextField (JPanel:JComponent, P:g)
+typeControlKey(null, null, 'z');
+// Elapsed time: 13 seconds
+setText(PAResourceItoN.NewIpWizard_DISPLAY_NAME, "handshake_v1.0"); // ak:JTextField (JPanel:JComponent, P:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+// Elapsed time: 14 seconds
+selectComboBox(PAResourceItoN.NewIpWizard_INTERFACE_TYPE, "Full", 1); // e:JComboBox (C:JPanel, P:g)
+// Elapsed time: 10 seconds
+selectComboBox(PAResourceItoN.NewIpWizard_INTERFACE_TYPE, "Lite", 0); // e:JComboBox (C:JPanel, P:g)
+// Elapsed time: 14 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+// Elapsed time: 13 seconds
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+// 'q' command handler elapsed time: 181 seconds
+dismissDialog("Create and Package New IP"); // P:g (cd:JFrame)
+// Tcl Message: create_peripheral xilinx.com user handshake 1.0 -dir C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/../ip_repo 
+// bt:g (cd:JFrame):  Create Peripheral IP : addNotify
+// Tcl Message: add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:handshake:1.0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:handshake:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core xilinx.com:user:handshake:1.0] 
+// Tcl Message: set_property  ip_repo_paths  {C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/../ip_repo/handshake_1.0 C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0 C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo} [current_project] 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/ip_repo/handshake_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Create Peripheral IP"); // bt:g (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 627, 186, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "hand"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "handsh"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+// bt:g (cd:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:handshake:1.0 handshake_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bt:g (cd:JFrame)
+// [GUI Memory]: 182 MB (+1799kb) [04:40:02]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+setText(PAResourceQtoS.RSBBlockPropPanels_NAME, "handshake"); // ak:JTextField (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'set_property name handshake [get_bd_cells handshake_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name handshake [get_bd_cells handshake_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 654, 168, 823, 492, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:q (cd:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:q)
+// bt:g (cd:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name handshake_v1_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/handshake_v1_0_project c:/Users/kmd17/Documents/GitHub/ip_repo/handshake_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/handshake_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/ip_repo/handshake_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1210.500 ; gain = 1.664 
+// 'i' command handler elapsed time: 8 seconds
+dismissDialog("Edit in IP Packager"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshake_v1_0 (handshake_v1_0.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshake_v1_0 (handshake_v1_0.v), handshake_v1_0_S00_AXI_inst - handshake_v1_0_S00_AXI (handshake_v1_0_S00_AXI.v)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshake_v1_0 (handshake_v1_0.v), handshake_v1_0_S00_AXI_inst - handshake_v1_0_S00_AXI (handshake_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshake_v1_0 (handshake_v1_0.v)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshake_v1_0 (handshake_v1_0.v)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "handshake_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 19 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "handshake_v1_0.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("handshake_v1_0.v", 79, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("handshake_v1_0.v", 79, 230, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "handshake_v1_0.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("handshake_v1_0.v", 131, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("handshake_v1_0.v", 131, 278, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "handshake_v1_0.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "handshake_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "handshake_v1_0.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "handshake_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("handshake_v1_0_S00_AXI.v", 168, 62); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("handshake_v1_0_S00_AXI.v", 168, 62, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "handshake_v1_0_S00_AXI.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("handshake_v1_0_S00_AXI.v", 334, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "handshake_v1_0_S00_AXI.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "handshake_v1_0.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - handshake", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 13 seconds
+setText(PAResourceItoN.IdentificationContentPanel_VERSION, "2.0"); // M:ak (af:L, cd:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // al:k (JViewport:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property version 2.0 [ipx::current_core] 
+selectButton(PAResourceQtoS.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property previous_version_for_upgrade xilinx.com:user:handshake:1.0 [ipx::current_core] 
+// Tcl Message: set_property core_revision 1 [ipx::current_core] 
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// bt:g (cd:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: PROJECT_CLOSE
+// [GUI Memory]: 191 MB (+537kb) [04:44:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 788 MB. GUI used memory: 137 MB. Current time: 5/10/17 1:42:00 AM EEST
+// Tcl Message: close_project 
+dismissDialog("Package IP"); // bt:g (cd:JFrame)
+// Tcl Message: set_property  ip_repo_paths  {c:/Users/kmd17/Documents/GitHub/ip_repo/handshake_1.0 c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0 c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo} [current_project] 
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, cd:JFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cd:JFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: PROJECT_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/ip_repo/handshake_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'. 
+// Elapsed time: 11 seconds
+closeMainWindow("led_ip_v6_0_project - [c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/led_ip_v6_0_project/led_ip_v6_0_project.xpr] - Vivado 2016.4"); // cd:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'
+closeMainWindow("led_ip_v6_0_project - [c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/led_ip_v6_0_project/led_ip_v6_0_project.xpr] - Vivado 2016.4"); // cd:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
