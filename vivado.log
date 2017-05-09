@@ -2,10 +2,10 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Mon May 08 12:06:50 2017
-# Process ID: 7948
+# Start of session at: Tue May 09 09:19:56 2017
+# Process ID: 3768
 # Current directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2580 C:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\HWacceleration.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10776 C:\Users\kmd17\Documents\GitHub\Embedded_Systems_lab4_HW_SW_ACCELERATION\HWacceleration.xpr
 # Log file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/vivado.log
 # Journal file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION\vivado.jou
 #-----------------------------------------------------------
@@ -17,14 +17,13 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 858.641 ; gain = 203.367
-ipx::edit_ip_in_project -upgrade true -name AXI_Lite_kmd_edit_v4_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/AXI_Lite_kmd_edit_v4_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 848.746 ; gain = 193.391
+ipx::edit_ip_in_project -upgrade true -name AXI_Lite_kmd_edit_v5_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/AXI_Lite_kmd_edit_v5_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project'
+Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project'
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
-create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 870.590 ; gain = 3.563
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
@@ -32,89 +31,36 @@ INFO: [IP_Flow 19-795] Syncing license key meta-data
 INFO: [IP_Flow 19-793] Syncing display name meta-data
 INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
 INFO: [IP_Flow 19-799] Syncing upgrade version meta-data
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 870.590 ; gain = 3.563
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 12:10:37 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 12:22:06 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 12:23:07 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:25:26 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:26:46 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:28:27 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:30:18 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:33:16 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:39:34 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
-[Mon May 08 16:40:21 2017] Launched synth_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 4
-[Mon May 08 16:42:50 2017] Launched impl_1...
-Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v4_0_project/AXI_Lite_kmd_edit_v4_0_project.runs/impl_1/runme.log
-set_property version 5.0 [ipx::current_core]
-set_property description {Improved memory access routing. Improved the communication protocol with the cpu.} [ipx::current_core]
-set_property previous_version_for_upgrade {xilinx.com:user:led_ip:1.0 xilinx.com:kmd:led_ip:2.0 xilinx.com:kmd:led_ip:3.0 xilinx.com:kmd:led_ip:4.0} [ipx::current_core]
-set_property core_revision 1 [ipx::current_core]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 871.512 ; gain = 0.746
+set_property core_revision 2 [ipx::current_core]
 ipx::create_xgui_files [ipx::current_core]
 ipx::update_checksums [ipx::current_core]
 ipx::save_core [ipx::current_core]
-close_project
-update_ip_catalog -rebuild -repo_path c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo
-INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'
-open_bd_design {C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd}
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
 Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - btns_5bits
 Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - sws_8bits
-Adding cell -- xilinx.com:kmd:led_ip:4.0 - led_ip
+Adding cell -- xilinx.com:kmd:led_ip:5.0 - led_ip
 Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
 Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
 Successfully read diagram <Cortex_A9> from BD file <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd>
-open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 979.281 ; gain = 0.000
-report_ip_status -name ip_status 
-upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
-Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
-INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 4.0 to AXI_Lite_kmd_edit 5.0
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 1 to revision 2
 Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
 INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 956.375 ; gain = 29.434
 export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
-report_ip_status -name ip_status 
 reset_run synth_1
-launch_runs impl_1 -jobs 4
+launch_runs impl_1 -to_step write_bitstream -jobs 4
 Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
 Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
 Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
@@ -128,25 +74,1139 @@ INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_pe
 Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
 Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
 Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 3.504 MB.
-[Mon May 08 16:53:35 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 20.541 MB.
+[Tue May 09 09:41:00 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
 Run output will be captured here:
 Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
 synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
-[Mon May 08 16:53:35 2017] Launched impl_1...
+[Tue May 09 09:41:00 2017] Launched impl_1...
 Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
-launch_runs: Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1136.176 ; gain = 116.422
-report_ip_status -name ip_status 
+launch_runs: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1114.238 ; gain = 157.602
+reset_run impl_1 -prev_step 
 launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Mon May 08 17:24:41 2017] Launched impl_1...
+[Tue May 09 09:45:56 2017] Launched impl_1...
 Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
 file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+current_project AXI_Lite_kmd_edit_v5_0_project
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May 09 10:00:28 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+[Tue May 09 10:00:28 2017] Launched impl_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/impl_1/runme.log
+reset_run synth_1
+current_project HWacceleration
 file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
 
 launch_sdk -workspace C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk -hwspec C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
 INFO: [Vivado 12-393] Launching SDK...
 INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk -hwspec C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
 INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 2 to revision 3
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 21.251 MB.
+[Tue May 09 10:08:00 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 10:08:01 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1170.004 ; gain = 31.574
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 3 to revision 4
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 21.949 MB.
+[Tue May 09 10:25:35 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 10:25:35 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1213.465 ; gain = 41.180
+report_ip_status -name ip_status 
+current_project AXI_Lite_kmd_edit_v5_0_project
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Tue May 09 10:26:32 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Tue May 09 10:28:28 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Tue May 09 10:31:45 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 21.949 MB.
+[Tue May 09 10:33:38 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 10:33:38 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1390.617 ; gain = 45.801
+report_ip_status -name ip_status 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1
+
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 4 to revision 6
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 22.648 MB.
+[Tue May 09 11:44:02 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 11:44:02 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1430.832 ; gain = 40.215
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Tue May 09 12:25:37 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+current_project HWacceleration
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May 09 12:26:28 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1
+
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 6 to revision 7
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 22.648 MB.
+[Tue May 09 12:27:31 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 12:27:31 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1450.805 ; gain = 16.867
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1
+
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 7 to revision 8
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 23.336 MB.
+[Tue May 09 12:59:15 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 12:59:15 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1485.094 ; gain = 34.289
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Tue May 09 16:33:37 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Tue May 09 16:34:32 2017] Launched synth_1...
+Run output will be captured here: c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project/AXI_Lite_kmd_edit_v5_0_project.runs/synth_1/runme.log
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 8 to revision 9
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 24.052 MB.
+[Tue May 09 16:36:49 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 16:36:49 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1533.184 ; gain = 10.996
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+ipx::edit_ip_in_project -upgrade true -name AXI_Lite_kmd_edit_v5_0_project -directory C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.tmp/AXI_Lite_kmd_edit_v5_0_project c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/led_ip_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/kmd17/documents/github/embedded_systems_lab4_hw_sw_acceleration/hwacceleration.tmp/axi_lite_kmd_edit_v5_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1533.184 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+INFO: [IP_Flow 19-799] Syncing upgrade version meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1533.184 ; gain = 0.000
+set_property core_revision 10 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 9 to revision 10
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 25.370 MB.
+[Tue May 09 17:39:05 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 17:39:05 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1566.270 ; gain = 33.086
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 11 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 10 to revision 11
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 26.368 MB.
+[Tue May 09 17:58:52 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 17:58:52 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1599.621 ; gain = 33.352
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 12 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 11 to revision 12
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 27.370 MB.
+[Tue May 09 18:29:19 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 18:29:19 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1626.949 ; gain = 27.328
+report_ip_status -name ip_status 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 13 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 12 to revision 13
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.378 MB.
+[Tue May 09 18:42:10 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 18:42:10 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1668.195 ; gain = 34.422
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+report_ip_status -name ip_status 
+report_ip_status: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1668.195 ; gain = 0.000
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property core_revision 14 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-3422] Upgraded Cortex_A9_led_ip_0_0 (AXI_Lite_kmd_edit 5.0) from revision 13 to revision 14
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 18:50:17 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 18:50:17 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1706.602 ; gain = 27.246
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 19:06:09 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 19:06:09 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1740.609 ; gain = 34.008
+report_ip_status -name ip_status 
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+reset_run synth_1
+reset_run Cortex_A9_led_ip_0_0_synth_1
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 19:07:13 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 19:07:13 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1765.727 ; gain = 25.117
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 19:25:15 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 19:25:15 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1796.520 ; gain = 30.793
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 19:35:24 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 19:35:24 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1818.613 ; gain = 22.094
+report_ip_status -name ip_status 
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 19:52:06 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 19:52:06 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1849.258 ; gain = 30.645
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo/GRAY_ACCELERATOR_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'.
+report_ip_status -name ip_status
+current_project AXI_Lite_kmd_edit_v5_0_project
+current_project HWacceleration
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:5.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 5.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.v
+Verilog Output written to : C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9_wrapper.v
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block btns_5bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sws_8bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9.hwh
+Generated Block Design Tcl file C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hw_handoff/Cortex_A9_bd.tcl
+Generated Hardware Definition File C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/hdl/Cortex_A9.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Cortex_A9_auto_pc_0, cache-ID = 83e7b606e4f79014; cache size = 28.666 MB.
+[Tue May 09 20:02:39 2017] Launched Cortex_A9_led_ip_0_0_synth_1, synth_1...
+Run output will be captured here:
+Cortex_A9_led_ip_0_0_synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/Cortex_A9_led_ip_0_0_synth_1/runme.log
+synth_1: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/synth_1/runme.log
+[Tue May 09 20:02:39 2017] Launched impl_1...
+Run output will be captured here: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1953.473 ; gain = 44.820
+file copy -force C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.runs/impl_1/Cortex_A9_wrapper.sysdef C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.sdk/Cortex_A9_wrapper.hdf
+
+current_project AXI_Lite_kmd_edit_v5_0_project
+set_property version 6.0 [ipx::current_core]
+set_property description {Improved memory access routing. Improved the communication protocol with the cpu. Board Tested} [ipx::current_core]
+set_property previous_version_for_upgrade {xilinx.com:user:led_ip:1.0 xilinx.com:kmd:led_ip:2.0 xilinx.com:kmd:led_ip:3.0 xilinx.com:kmd:led_ip:4.0 xilinx.com:kmd:led_ip:5.0} [ipx::current_core]
+set_property core_revision 1 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:kmd:led_ip:6.0 [get_ips  Cortex_A9_led_ip_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd'
+INFO: [IP_Flow 19-1972] Upgraded Cortex_A9_led_ip_0_0 from AXI_Lite_kmd_edit 5.0 to AXI_Lite_kmd_edit 6.0
+Wrote  : <C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/Cortex_A9.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips Cortex_A9_led_ip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon May 08 17:39:23 2017...
+INFO: [Common 17-206] Exiting Vivado at Tue May 09 20:14:45 2017...

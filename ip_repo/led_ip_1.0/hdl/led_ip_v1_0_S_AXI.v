@@ -66,10 +66,10 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg0;  //missing description????? Perfect example of bad documentation.
 	wire [C_S_AXI_DATA_WIDTH-1:0]	slv_reg1; //missing description?????
 	wire [C_S_AXI_DATA_WIDTH-1:0]	slv_reg2; //missing description?????
-	reg [C_S_AXI_DATA_WIDTH-1:0]	slv_reg3; //missing description?????
+	wire [C_S_AXI_DATA_WIDTH-1:0]	slv_reg3; //missing description?????
 	reg [C_S_AXI_DATA_WIDTH-1:0]	 reg_data_out; //is taking the value of one of the 4 registers above depending on the offset of the **IPname**_mReadReg command
 	wire	 slv_reg_rden; //KMD: output->valid user data to be sent to master //missing description?????
-	wire	 slv_reg_wren; //KMD: input<-valid registers for user to read  //missing description?????
+	wire	 slv_reg_wren; //Becomes 1 for 2 cycles. First cycle data is written from S_AXI_WDATA to the assign slv_reg, Second cycle -> data is actually available from the slv_reg , da//KMD: input<-valid registers for user to read ?????
     
 	integer	 byte_index;
 
@@ -167,7 +167,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	      slv_reg0 <= 0;
 	      //slv_reg1 <= 0; //not sure if commenting is necessary but may cause conflict with assigning its value from USER code. 
 	      //slv_reg2 <= 0;
-	      slv_reg3 <= 0;
+	      //slv_reg3 <= 0;
 	    end 
 	  else begin
 	    if (slv_reg_wren)
@@ -178,7 +178,7 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	              if ( S_AXI_WSTRB[byte_index] == 1 ) begin
 	                // Respective byte enables are asserted as per write strobes 
 	                // Slave register 0
-	                slv_reg0[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
+	                slv_reg0[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8]; 
 	              end  
 	          2'h1:
 	            for ( byte_index = 0; byte_index <= (C_S_AXI_DATA_WIDTH/8)-1; byte_index = byte_index+1 )
@@ -199,13 +199,13 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 	              if ( S_AXI_WSTRB[byte_index] == 1 ) begin
 	                // Respective byte enables are asserted as per write strobes 
 	                // Slave register 3
-	                slv_reg3[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
+	                //slv_reg3[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
 	              end  
 	          default : begin
 	                      slv_reg0 <= slv_reg0;
 	                      //slv_reg1 <= slv_reg1;
 	                      //slv_reg2 <= slv_reg2;
-	                      slv_reg3 <= slv_reg3;
+	                      //slv_reg3 <= slv_reg3;
 	                    end
 	        endcase
 	      end
@@ -346,9 +346,12 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
     .rst(S_AXI_ARESETN),
     .slv_reg_wren(slv_reg_wren),
     .slv_reg_rden(slv_reg_rden),
-    .X(slv_reg0),
-    .signal_computation_ready(slv_reg2),
+    .S_AXI_ARADDR(S_AXI_ARADDR),
+    .axi_araddr(axi_araddr),
+    .X(S_AXI_WDATA),
     .Y(slv_reg1),
+    .state(slv_reg2),
+    .probing(slv_reg3),
     .led(LED)
     );
     
@@ -360,21 +363,23 @@ input wire  S_AXI_RREADY // Read ready. This signal indicates that the master ca
 module multiplicator(
        input clk,
        input rst,
-       input slv_reg_wren,   //memWrite initiated, data is ready to take within 1 cycle on slv_reg0=X
-       input slv_reg_rden,   //memRead initiated, data must be ready to give within 1 cycle on slv_reg1=Y
+       input slv_reg_wren,   //memWrite initiated, data is ready to take after 1 cycle from slv_reg0=X or immidiatelly from the S_AXI_WDATA interface
+       input slv_reg_rden,   //memRead initiated, data should have been ready when 1 on slv_reg1,2,3 and next date value can now be loaded onto the slave regs 
+       input wire [15:0]S_AXI_ARADDR,
+       input wire [15:0]axi_araddr,
        input  [15:0] X,      //slv_reg0
-       output reg [10:0] signal_computation_ready, //slv_reg2
        output reg [31:0] Y=0,   //slv_reg1 , initialized as 0
+       output reg [2:0] state=0, //slv_reg2
+       output reg [31:0] probing=0,   //slv_reg3 , initialized as 0
        output reg [7:0] led=3
    );
    
-       parameter idle = 3'b000;
-       parameter set_vector_size = 3'b001;
-       parameter receive_vector = 3'b010;
-       parameter waiting_signal = 3'b011;
-       parameter computation = 3'b100;
-       parameter sent_vector = 3'b101;
-       reg [2:0] state=0;
+       parameter idle = 3'b000;                //0
+       parameter set_vector_size = 3'b001;     //1
+       parameter receive_vector = 3'b010;      //2
+       parameter waiting_signal = 3'b011;      //3
+       parameter computation = 3'b100;         //4
+       parameter sent_vector = 3'b101;         //5
        reg [2:0] nextstate=0;
        reg [15:0] vector_size; 
        reg [31:0] i,k; //simple counter for every register received or sent using the AXI interface.
@@ -388,83 +393,66 @@ module multiplicator(
            begin
                  case(state)
                      idle: //a) at the beginning, the accelerator is in idle (or RESET) state waiting for the first inputs to appear.
-                               begin
-                                   signal_computation_ready<=2;
-                                   i<=0;
-                                 if(slv_reg_rden)
-                                      begin
-                                          nextstate<=set_vector_size;
-                                      end
-                               end       
-                     set_vector_size://b) The accelerator receives the size of the input (and output) arrays N. 
-                              begin
-                                  signal_computation_ready<=3;
-                                  i<=0;
-                                  if(slv_reg_wren)
-                                                        begin
-                                                             vector_size<=X;
-                                                             nextstate<=receive_vector;
-                                                        end
-                              end
-   
-                     receive_vector://c) The accelerator receives the input array X[.] and stores the elements of the array to the input SRAM. This phase will take N cycles to complete.
-                              begin   //pulse=0;
-                              signal_computation_ready=4;
                                  if(slv_reg_wren)
                                       begin
-                                             memInputX[i]=X;
-                                             i=i+1;    
-                                             if (i==vector_size)
-                                                  begin
-                                                      nextstate=waiting_signal;
-                                                  end
-                                                  
-                                     end 
-                              end               
+                                          i<=0;
+                                          nextstate<=set_vector_size;
+                                      end     
+                     set_vector_size://b) The accelerator receives the size of the input (and output) arrays N. 
+                                if(slv_reg_wren)
+                                                    begin
+                                                         vector_size<=X;
+                                                         probing<=X;  ///del whats the received vector size
+                                                         nextstate<=receive_vector;
+                                                    end
+                     receive_vector://c) The accelerator receives the input array X[.] and stores the elements of the array to the input SRAM. This phase will take N cycles to complete.
+                                 if(slv_reg_wren)
+                                             if(i<vector_size)
+                                                begin
+                                                     probing<=X; ///del what is my input
+                                                     Y<=i;       ///del which iteration is currently running
+                                                     memInputX[i]<=X;
+                                                     if(i==vector_size-1)
+                                                        begin
+                                                           nextstate<=waiting_signal;
+                                                        end
+                                                     i<=i+1; 
+                                                end   
                      waiting_signal://d) Once all input data arrive, the accelerator waits for the trigger signal to start computation.
-                                begin
-                                 signal_computation_ready<=5;
-                                 i<=0;
-                                 if(slv_reg_rden)
+                                 if(slv_reg_wren)
                                       begin
+                                          i<=0;
                                           nextstate<=computation;
                                           k<=memInputX[0];
-                                      end
-                                end      
+                                      end  
                        //takes half the time as receive_vector state: 1clock period for 1 multiplication+saving               
                      computation://e) Once triggered, the accelerator reads each element X[i], computes Y[i] = A*X[i]*X[i] and stores the result to the output SRAM.
-                                 begin   //pulse=0;
-                                    memInputY[i]=k;//k*k;
-                                    k=memInputX[i+1];
-                                    i=i+1;
-                                    if(i==vector_size)
-                                         begin
-                                             signal_computation_ready=1;//////signal CPU AS WELL Y=SIGNAL
+                                    if(i<vector_size)
+                                        begin
+                                            memInputY[i]=k*k;
+                                            k=memInputX[i+1];
+                                            i=i+1;
+                                        end
+                                    else
+                                        begin
                                              nextstate=sent_vector;
-                                             i=0;       
-                                        end 
-                                    else 
-                                            signal_computation_ready=6;
-                                 end                                    
-                                       
-                                     
+                                             i=0; //slv_reg1 works with preloading, when slv_reg_rden enable comes, the slv_reg should already have the correct value
+                                             Y=memInputY[0]; //slv_reg1
+                                        end                                         
                      sent_vector://f) When finished, the accelerator reads the N Y[.] data from the output SRAM and presents
                      // them to the output port. At the same time, it asserts an output enable signal to show to the
                      //testbench that the data are available
-                           begin
-                              if(slv_reg_rden)
-                                      begin
-                                             Y=memInputY[i];
-                                             i=i+1;  
-                                             if (i==vector_size)
-                                                  begin
-                                                      nextstate=idle;
-                                                      //i=0;
-                                                  end                                         
-                                     end       
-                           end
+                              if(slv_reg_rden &&  axi_araddr==4)
+                                      if(i<vector_size)
+                                          begin                                          
+                                             Y<=memInputY[i]; //in case the result is correct there should be a problem with computation state if not there there is a problem with slv_reg_rden
+                                             i<=i+1;           //                                  
+                                             if(i==vector_size-1)
+                                                   nextstate<=idle; //
+                                          end
                      default: 
                             begin
+                             k<=0;
                              i<=0;
                              nextstate<=idle;
                             end
@@ -478,7 +466,6 @@ module multiplicator(
                          state <= idle;
                      else
                         begin
-                         led<=signal_computation_ready;
                          state <= nextstate;
                         end
          end
