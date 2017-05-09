@@ -171,7 +171,7 @@ CONFIG.USE_BOARD_FLOW {true} \
  ] $btns_5bits
 
   # Create instance: led_ip, and set properties
-  set led_ip [ create_bd_cell -type ip -vlnv xilinx.com:kmd:led_ip:5.0 led_ip ]
+  set led_ip [ create_bd_cell -type ip -vlnv xilinx.com:kmd:led_ip:6.0 led_ip ]
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]
