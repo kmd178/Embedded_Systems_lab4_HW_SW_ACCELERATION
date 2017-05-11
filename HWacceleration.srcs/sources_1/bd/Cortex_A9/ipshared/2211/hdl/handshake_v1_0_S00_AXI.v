@@ -1,11 +1,11 @@
 `timescale 1 ns / 1 ps  ////KMD EDIT. v2. I would clear out the confusion between what (aw,w,ar,r,b) valid and ready really mean by replacing W with MASTER and R with slave. Meaning that the data or address is synthesized by master who Writes or slave who master Reads from
 ////S_AXI_AWADRR AND S_AXI_ARADRR are being signaled through the interconnect from the cpu in multiples of 4 . Having exactly the value assigned by mRead function essentially wasting the 2 LSB.
 ///In case of registers being 8,16,32,64,128 the right shifting of user input must be applied to save register addres space.
-module handshake_v1_0_S00_AXI # 	(
+module handshake_v1_0_S00_AXI# 	(
 ///////////////////////////////////////////////////////////////////////////////////user
 parameter integer C_S_AXI_DATA_WIDTH	= 32,
 parameter integer C_S_AXI_ADDR_WIDTH	= 4 ) // Width of S_AXI address bus
-( 
+(
 //////////////////////////////////////////////////////////////////////////////////user
 input wire  S_AXI_ACLK,// Global Clock Signal
 input wire  S_AXI_ARESETN,// Global Reset Signal. This Signal is Active LOW
@@ -380,7 +380,7 @@ module multiplicator(
        reg [31:0] i; //simple counter for every register received or sent using the AXI interface.
        (* ram_style = "block" *) reg [31 : 0] memInputX [0 : 20]; //possible only with LUTRAM because its not set in posedge =(
        (* ram_style = "block" *) reg [31 : 0] memInputY [0 : 20];
-   
+        reg [31:0] y=0;
    
    
        
@@ -391,6 +391,7 @@ module multiplicator(
                                begin
                                    signal_computation_ready<=1;
                                    i<=0;
+                                   y<=0;
                                  if(enabler==1)
                                       begin
                                           
@@ -457,11 +458,13 @@ module multiplicator(
                      // them to the output port. At the same time, it asserts an output enable signal to show to the
                      //testbench that the data are available
                            begin
-                              if(enabler==i)
+                              if(enabler==y)
                                       begin
-                                             Y<=memInputY[i];
-                                             i<=i+1;  
-                                             if (i==vector_size)
+                                             Y<=memInputY[y];
+                                             signal_computation_ready<=y;
+                                             y<=y+1;  
+                                             
+                                             if (y==vector_size)
                                                   begin
                                                       nextstate<=idle;
                                                       //i=0;
@@ -471,6 +474,7 @@ module multiplicator(
                      default: 
                             begin
                              i<=0;
+                             y<=0;
                              nextstate<=idle;
                             end
                  endcase

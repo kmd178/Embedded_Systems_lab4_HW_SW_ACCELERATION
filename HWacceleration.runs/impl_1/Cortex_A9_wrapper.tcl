@@ -68,12 +68,12 @@ set rc [catch {
   set_property netlist_only true [get_files c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.dcp]
   add_files -quiet c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0.dcp
   set_property netlist_only true [get_files c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_rst_ps7_0_100M_0/Cortex_A9_rst_ps7_0_100M_0.dcp]
-  add_files -quiet C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.dcp
-  set_property netlist_only true [get_files C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.dcp]
+  add_files -quiet c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.dcp
+  set_property netlist_only true [get_files c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_xbar_0/Cortex_A9_xbar_0.dcp]
   add_files -quiet C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_led_ip_0_0/Cortex_A9_led_ip_0_0.dcp
   set_property netlist_only true [get_files C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_led_ip_0_0/Cortex_A9_led_ip_0_0.dcp]
-  add_files -quiet c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_handshake_0_0_1/Cortex_A9_handshake_0_0.dcp
-  set_property netlist_only true [get_files c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_handshake_0_0_1/Cortex_A9_handshake_0_0.dcp]
+  add_files -quiet C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_handshake_0_0_1/Cortex_A9_handshake_0_0.dcp
+  set_property netlist_only true [get_files C:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_handshake_0_0_1/Cortex_A9_handshake_0_0.dcp]
   add_files -quiet c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0.dcp
   set_property netlist_only true [get_files c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_auto_pc_0/Cortex_A9_auto_pc_0.dcp]
   read_xdc -ref Cortex_A9_processing_system7_0_0 -cells inst c:/Users/kmd17/Documents/GitHub/Embedded_Systems_lab4_HW_SW_ACCELERATION/HWacceleration.srcs/sources_1/bd/Cortex_A9/ip/Cortex_A9_processing_system7_0_0/Cortex_A9_processing_system7_0_0.xdc

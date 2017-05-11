@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Wed May 10 02:04:19 2017
+| Date         : Thu May 11 10:46:30 2017
 | Host         : SURFACE running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Cortex_A9_handshake_0_0_utilization_synth.rpt -pb Cortex_A9_handshake_0_0_utilization_synth.pb
 | Design       : Cortex_A9_handshake_0_0
@@ -30,13 +30,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                |  319 |     0 |     53200 |  0.60 |
-|   LUT as Logic             |  221 |     0 |     53200 |  0.42 |
-|   LUT as Memory            |   98 |     0 |     17400 |  0.56 |
-|     LUT as Distributed RAM |   98 |     0 |           |       |
+| Slice LUTs*                |  316 |     0 |     53200 |  0.59 |
+|   LUT as Logic             |  258 |     0 |     53200 |  0.48 |
+|   LUT as Memory            |   58 |     0 |     17400 |  0.33 |
+|     LUT as Distributed RAM |   58 |     0 |           |       |
 |     LUT as Shift Register  |    0 |     0 |           |       |
-| Slice Registers            |  202 |     0 |    106400 |  0.19 |
-|   Register as Flip Flop    |  202 |     0 |    106400 |  0.19 |
+| Slice Registers            |  234 |     0 |    106400 |  0.22 |
+|   Register as Flip Flop    |  234 |     0 |    106400 |  0.22 |
 |   Register as Latch        |    0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |    0 |     0 |     26600 |  0.00 |
 | F8 Muxes                   |    0 |     0 |     13300 |  0.00 |
@@ -59,7 +59,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 3     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 199   |          Yes |       Reset |            - |
+| 231   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -149,15 +149,16 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  199 |        Flop & Latch |
-| RAMS32   |   98 |  Distributed Memory |
-| LUT5     |   61 |                 LUT |
-| LUT4     |   42 |                 LUT |
-| LUT6     |   36 |                 LUT |
-| LUT2     |   36 |                 LUT |
-| LUT1     |   34 |                 LUT |
-| LUT3     |   33 |                 LUT |
-| CARRY4   |   25 |          CarryLogic |
+| FDRE     |  231 |        Flop & Latch |
+| LUT3     |   71 |                 LUT |
+| LUT1     |   66 |                 LUT |
+| LUT6     |   47 |                 LUT |
+| RAMS32   |   46 |  Distributed Memory |
+| LUT5     |   38 |                 LUT |
+| LUT2     |   37 |                 LUT |
+| RAMD32   |   36 |  Distributed Memory |
+| LUT4     |   36 |                 LUT |
+| CARRY4   |   36 |          CarryLogic |
 | FDCE     |    3 |        Flop & Latch |
 | DSP48E1  |    3 |    Block Arithmetic |
 +----------+------+---------------------+

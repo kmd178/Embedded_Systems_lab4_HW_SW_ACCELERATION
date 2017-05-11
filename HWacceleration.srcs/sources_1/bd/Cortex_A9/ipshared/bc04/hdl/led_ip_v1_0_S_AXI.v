@@ -383,8 +383,8 @@ module multiplicator(
        reg [2:0] nextstate=0;
        reg [15:0] vector_size; 
        reg [31:0] i,k; //simple counter for every register received or sent using the AXI interface.
-       (* ram_style = "block" *) reg [31 : 0] memInputX [0 : 20]; //possible only with LUTRAM because its not set in posedge =(
-       (* ram_style = "block" *) reg [31 : 0] memInputY [0 : 20];
+       (* ram_style = "block" *) reg [31 : 0] memInputX [0 : 520]; //possible only with LUTRAM because its not set in posedge =(
+       (* ram_style = "block" *) reg [31 : 0] memInputY [0 : 520];
    
    
    
