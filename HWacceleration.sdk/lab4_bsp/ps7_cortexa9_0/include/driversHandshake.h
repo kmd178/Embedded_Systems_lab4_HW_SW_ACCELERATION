@@ -2,9 +2,14 @@
 #include "handshake.h"
 #include "xgpio.h"
 #include "led_ip.h"
-#define N 20
-void FPGA_test_handshake(int X[], int Y[]) {
+void FPGA_test_handshake(int X[], int Y[], int N) {
 	  int i;
+
+	  //HANDSHAKE_S_AXI_SLV_REG0_OFFSET  input X
+	  //HANDSHAKE_AXI_SLV_REG1_OFFSET  output Y
+	  //HANDSHAKE_S_AXI_SLV_REG2_OFFSET  output state   debugging
+	  //HANDSHAKE_S_AXI_SLV_REG3_OFFSET  input enabler
+
 	  xil_printf("-- idle --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
 	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, 1); //start accelerator
 

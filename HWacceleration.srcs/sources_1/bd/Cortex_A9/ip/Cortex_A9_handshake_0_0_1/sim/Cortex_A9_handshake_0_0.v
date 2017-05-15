@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:handshake:2.0
-// IP Revision: 3
+// IP Revision: 4
 
 `timescale 1ns/1ps
 
