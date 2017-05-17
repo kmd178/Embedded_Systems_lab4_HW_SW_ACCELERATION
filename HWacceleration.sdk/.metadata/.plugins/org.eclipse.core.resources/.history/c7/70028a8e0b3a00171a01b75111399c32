@@ -12,7 +12,7 @@ void FPGA_test_reconfigured_AXI(int X[N], int Y[N], int N);
 void FPGA_test_handshake(int X[N], int Y[N], int N);
 int main (void)
 {
-
+	  //xil_printf("-- idle --\r %x \n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
 	  int X[N];
 	  int Y1[N];
 	  int Y2[N];
@@ -39,4 +39,8 @@ void CPU_test(int X[],int Y[]){
 	  }
 	return;
 }
+
+
+
+//*2 *4 /6 /7 **10lab1
 

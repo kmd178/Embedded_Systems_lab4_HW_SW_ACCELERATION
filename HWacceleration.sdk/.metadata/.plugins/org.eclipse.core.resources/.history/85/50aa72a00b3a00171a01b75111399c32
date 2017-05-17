@@ -5,7 +5,7 @@
 
 void FPGA_test_reconfigured_AXI(int X[], int Y[], int N) {
 	  int i;
-
+	  X[0]=0; //SDK bug  initializing values to zero.
 	 // int D[10];
 
 	  //LED_IP_S_AXI_SLV_REG0_OFFSET  input X

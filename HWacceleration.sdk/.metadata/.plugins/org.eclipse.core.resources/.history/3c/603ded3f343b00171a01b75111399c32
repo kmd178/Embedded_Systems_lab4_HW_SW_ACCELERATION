@@ -40,7 +40,7 @@ void FPGA_test_handshake(int X[], int Y[], int N) {
 	  for (i=0; i<N ; i++) {
 		  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, i);//receive output vector Y
 		  Y[i]=HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG1_OFFSET);
-		  //xil_printf("-- mesa --\r %d %d\n", i,Y[i]);
+		  xil_printf("-- mesa --\r %d %d\n", i,Y[i]);
 
 	  };
 	  //reading the value of grayout,  HANDSHAKE_S00_AXI_SLV_REG1_OFFSET=4  4*8bytes after slv1

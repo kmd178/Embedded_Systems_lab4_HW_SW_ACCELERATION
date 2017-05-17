@@ -5,7 +5,7 @@
 
 void FPGA_test_reconfigured_AXI(int X[], int Y[], int N) {
 	  int i;
-
+	  X[0]=0; //SDK bug  initializing values to zero.
 	 // int D[10];
 
 	  //LED_IP_S_AXI_SLV_REG0_OFFSET  input X
@@ -44,9 +44,9 @@ void FPGA_test_reconfigured_AXI(int X[], int Y[], int N) {
 	  //FPGA:sent_vector___slv_reg_rden
 	  for (i=0; i<N ; i++) {							  //receive output vector Y
 		  Y[i]=LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG1_OFFSET);
-		  //xil_printf("Y[%d]=%d \r\n",i, Y[i]);
+		  xil_printf("Y[%d]=%d \r\n",i, Y[i]);
 
 	  }
-	  //xil_printf("--FINISHED RECEIVING VECTOR idle=0--%d \r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
+	  xil_printf("--FINISHED RECEIVING VECTOR idle=0--%d \r\n", LED_IP_mReadReg(XPAR_LED_IP_S_AXI_BASEADDR,LED_IP_S_AXI_SLV_REG2_OFFSET));
 	  return;
 }

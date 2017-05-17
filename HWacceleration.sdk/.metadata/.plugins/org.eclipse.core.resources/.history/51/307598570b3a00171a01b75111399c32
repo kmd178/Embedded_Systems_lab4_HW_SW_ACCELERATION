@@ -10,10 +10,10 @@ void FPGA_test_handshake(int X[], int Y[], int N) {
 	  //HANDSHAKE_S_AXI_SLV_REG2_OFFSET  output state   debugging
 	  //HANDSHAKE_S_AXI_SLV_REG3_OFFSET  input enabler
 
-	  //xil_printf("-- idle --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
+	  xil_printf("-- idle --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
 	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, 1); //start accelerator
 
-	  //xil_printf("-- receive LENGTH --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
+	  xil_printf("-- receive LENGTH --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
 	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,0,N); //sent array size info
 	  //xil_printf("-- receive LENGTH1 --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
 	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, 2);
@@ -23,13 +23,13 @@ void FPGA_test_handshake(int X[], int Y[], int N) {
 	  for (i=0; i<=N ; i++) {							  //sent input vector X
 	  	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, 0, X[i]);
 	  	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, i);
-		  //xil_printf("-- receive vector --\r %x %d\n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET),i);
+		  xil_printf("-- receive vector --\r %x %d\n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET),i);
 
 	  }
 
 
 	  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, 1); //start computation
-	  //xil_printf("-- waitin --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
+	  xil_printf("-- waitin --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
 	  //xil_printf("-- Stdam2 --\r %x \n", HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG2_OFFSET));
 	 // HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, 0, 0); //start computation
 
@@ -40,9 +40,10 @@ void FPGA_test_handshake(int X[], int Y[], int N) {
 	  for (i=0; i<N ; i++) {
 		  HANDSHAKE_mWriteReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR, HANDSHAKE_S00_AXI_SLV_REG3_OFFSET, i);//receive output vector Y
 		  Y[i]=HANDSHAKE_mReadReg(XPAR_HANDSHAKE_S00_AXI_BASEADDR,HANDSHAKE_S00_AXI_SLV_REG1_OFFSET);
-		  //xil_printf("-- mesa --\r %d %d\n", i,Y[i]);
+		  xil_printf("-- mesa --\r %d %d\n", i,Y[i]);
 
-	  };
+	  }
+	  xil_printf("-- Stdam5 --\r %x \n");
 	  //reading the value of grayout,  HANDSHAKE_S00_AXI_SLV_REG1_OFFSET=4  4*8bytes after slv1
 
 
